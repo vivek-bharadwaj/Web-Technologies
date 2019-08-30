@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'FuturaPT';
+    src: url("FuturaPTDemi.otf"), url("FuturaPTLight.otf");
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'FuturaPT', Fallback, sans-serif;
+    color: #FFF;
+}
+
+
+
+span {
+    float: left;
+}
+.first-background-wrapper {
+    margin: auto;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), #FFF url("http://csci571.com/hw/hw3/images/snow1.jpg") no-repeat fixed top center;
+    background-blend-mode: darken;
+    background-size: 1300px 880px;
+    width: 1000px;
+    height: 800px;
+}
+
+.header-main {
+    padding-top: 3.2%;
+    padding-left: 11%;
+}
+
+.nav-menu-name {
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 5px;
+    padding-right: 60px;
+    margin-top: -5px;
+    z-index: 2;
+}
+
+.nav-menu-item {
+    font-size: 9px;
+    letter-spacing: 2.5px;
+    padding-right: 16px;
+    display: inline;
+    font-weight: 100;
+    z-index: 1;
+}
+
+.bend {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 370px;
+    padding-top: 3px;
+    min-width: 280px;
+}
+
+.bend > h1 {
+    text-align: center;
+    font-size: 69px;
+    color: #FFF;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+
+.description {
+    position: absolute;
+    top: 430px;
+    margin-left: 210px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    min-width: 500px;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+.para {
+    font-family: 'FuturaPTLight', sans-serif;
+    font-weight: 100;
+    opacity: 0.85;
+    white-space: nowrap;
+}
+
+.btn-container {
+    width: 120px;
+    height: 50px;
+    background-color: #FFF;
+    position: absolute;
+    top: 600px;
+    margin-left: 440px;
+}
+
+.btn {
+    font: 'FuturaPTLight', sans-serif;
+    color: #555;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 25px;
+}
+/* For image 2x2 grid */
+
+.row {
+    width: 1000px;
+    height: 850px;
+    margin: 0 auto;
+    padding-top: 72px;
+    justify-content: center;
+}
+
+.row img {
+    object-fit: cover;
+    width: 400px;
+    float: left;
+    height: 400px;
+    padding-bottom: 16px;
+}
+
+.column-1 {
+margin-left: 92px;
+}
+
+.column-2 {
+margin-left: 16px;
+}
+
+.text-container {
+    color: #000c;
+    margin: 0 auto;
+    margin-bottom: 110px;
+    font-family: 'FuturaPTLight', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    width: 600px;
+    line-height: 22px;
+    opacity: 0.9;
+    position: relative;
+    padding-left: 235px;
+    white-space: nowrap;
+}
+
+
+.second-background-wrapper {
+    margin:auto;
+    background-image: url(http://csci571.com/hw/hw3/images/snow6.jpg);
+    background-color: #FFF;
+    background: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0,0,0,0.11)), #FFF url("http://csci571.com/hw/hw3/images/snow6.jpg") no-repeat fixed center center;
+    width: 1000px;
+    height: 800px;
+    margin-bottom: 140px;
+}
+
+.text-wrapper > .center-text {
+    padding-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:#FFF;
+    line-height: 1.6em;
+    z-index: 2;
+    font-family: 'FuturaPTLight', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    position: relative;
+    top:300px;
+    filter: brightness(95%);
+}
