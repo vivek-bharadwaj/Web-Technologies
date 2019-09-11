@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Homework 4</title>
+    <style type="text/css">
+        .formDiv {
+            text-align: center;
+            margin-top: 150px;
+        }
+
+        .header {
+            font-weight: bold;
+            font-size: 20px;
+            padding-bottom: 5px;
+        }
+
+        .textbox {
+            width: 165px;
+        }
+
+        .submit {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="formDiv">
+        <h1 class="header">Enter URL for Highest-grossing films List JSON File</h1>
+        <form name="myform" method="POST">
+            <input type="text" class="textbox" name="URL" maxlength="255" size="100">
+            <br><br>
+            <input type="button" class="submit" name="submit" value="Submit Query" onclick="mainFunc(this.form)">
+        </form>
+    </div>
+
+    <script type="text/javascript">
+
+        let html_text = "";
+
+        function mainFunc(form) {
+            const jsonFile = form.URL.value;    // string - file name
+
+            if (!jsonFile || jsonFile.trim().length === 0) {     // null or undefined check for filename
+                window.alert("The JSON URL is empty. Please enter a file name");
+                // window.location.reload();
+            }
+            else {
+                let jsonObj = loadJSON(jsonFile);   // Get JSON object
+                if (typeof jsonObj === 'object') {
+                    jsonObj.onload = generateHTML(jsonObj);     // Generate Table
+                    let success = jsonObj.onload;
+                    console.log(success);
+                    if (success) {
+                        let newWindow = window.open("", "name=_blank", "height=800,width=1050,scrollbars,resizable,status,location");  // var window = window.open(url, windowName, [windowFeatures]);
+                        newWindow.document.write(html_text);
+                        newWindow.document.close();
+                    }
+                }
+            }
+        }
+
+        function loadJSON(jsonFile) {
+
+            try {
+                const xhr = new XMLHttpRequest();
+                xhr.open("GET", jsonFile, false);
+                xhr.send();
+
+
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    let jsonObj = JSON.parse(xhr.responseText);
+                    return jsonObj;
+                }
+
+                else if (xhr.status === 404) {
+                    console.warn("404 file not found error");
+                    window.alert("The entered JSON file does not exist. Please enter a valid filename!");
+                }
+            }
+
+            catch (exception) {
+                // Invalid File name
+                console.warn(exception);
+                console.warn("404 file not found error");
+                window.alert("The entered JSON file does not exist. Please enter a valid filename!");
+            }
+
+
+        }
+
+        function generateHTML(jsonObj) {
+            try {
+                if (jsonObj.Mainline.Table.Row === undefined) {
+                    throw "NoRowException";
+                }
+                else if (jsonObj.Mainline.Table.Row.length === 0) {
+                    throw "NoRowException";
+                }
+                else {
+                    html_text = "<html><head><title>Highest-grossing films</title></head><body>";
+                    html_text += "<table border = '2' width=100%><tr>";
+
+                    let headerData = jsonObj.Mainline.Table.Header.Data;
+                    for (let i = 0; i < headerData.length; i++) {
+                        html_text += "<th>" + headerData[i] + "</th>";
+                    }
+                    html_text += "</tr>";
+
+                    let rowData = jsonObj.Mainline.Table.Row;   // rowData = Row Array
+                    for (let i = 0; i < rowData.length; i++) {
+                        html_text += "<tr>";
+                        let currentRowObject = rowData[i];  // Each Row Object
+                        let currentRowKeys = Object.keys(currentRowObject); //  Array of keys in each Row - [Title, Year, Hubs, Gross, Homepage, Logo]
+
+                        for (let j = 0; j < currentRowKeys.length; j++) {
+                            let key = currentRowKeys[j];
+                            if (key === "Hubs") {
+                                let currentHubObject = currentRowObject.Hubs;
+                                if (currentHubObject.Hub.length > 0) {
+                                    html_text += "<td style='min-width:227px'><ul>"
+                                    for (let k = 0; k < currentHubObject.Hub.length; k++) {
+                                        if (k == 0) {   // First li should be bold
+                                            html_text += "<li><b>" + currentHubObject.Hub[0] + "</b></li>"
+                                        }
+                                        else
+                                            html_text += "<li>" + currentHubObject.Hub[k] + "</li>"
+                                    }
+                                }
+                                else
+                                    html_text += "<td style='min-width:227px'> </td>";
+                                html_text += "</ul></li>";
+                            }
+                            else if (key === "HomePage") {
+                                html_text += "<td nowrap><a href='" + currentRowObject[key] + "'>" + currentRowObject[key] + "</td>";
+                            }
+                            else if (key === "Logo") {
+                                html_text += "<td><img src='" + currentRowObject[key] + "' width=140 height=180></td>";
+                            }
+                            else {
+                                html_text += "<td>" + currentRowObject[key] + "</td>";
+                            }
+                        }
+                        html_text += "</tr>";
+                    }
+
+                    html_text += "</table></body></html>";
+                    return true;
+                }
+            }
+            catch (e) {
+                if (e == "NoRowException") {
+                    window.alert("JSON file does not contain any films!");
+                    return;
+                }
+            }
+
+        }
+    </script>
+</body>
+</html>
