@@ -1,0 +1,82 @@
+body, html, p {
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    display: inline-block;
+}
+
+.form-wrapper {
+    margin:auto;
+    margin-top:45px;
+    width: 600px;
+    height: 300px;
+    border: 2px solid darkgrey;
+    background-color: #FAFAFA;
+    position: relative;
+}
+
+.heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: 550;
+    font-size: 33px;
+    text-align: center;
+    width: 98%;
+}
+
+.inner {
+    border-bottom: 2px solid lightgray;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 16px;
+}
+
+.label {
+    padding-left: 16px;
+    margin-bottom: 15px;
+}
+
+#new, #used, #unspecified {
+    margin-left:15px;
+}
+
+#local, #free {
+    margin-left: 30px;
+}
+
+#distance {
+    margin-left: 20px;
+}
+
+#dist {
+    margin-left: 338px;
+}
+
+#search-button {
+    margin-left: 210px;
+}
+
+#clear-button {
+    margin-left: 5px;
+    text-align: center;
+}
+
+table #product-results-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border: 2px solid gray;
+}
+
+td, tr {
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+
+#col-1, #col-2, #col-3, #col-4, #col-5, #col-6, #col-7 {
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
