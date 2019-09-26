@@ -1,0 +1,4968 @@
+{
+  "findItemsAdvancedResponse": [
+    {
+      "ack": ["Success"],
+      "version": ["1.13.0"],
+      "timestamp": ["2019-04-09T21:58:55.556Z"],
+      "searchResult": [
+        {
+          "@count": "50",
+          "item": [
+            {
+              "itemId": ["183401199736"],
+              "title": [
+                "iPhone X ✤ 64GB 256GB ✤ SPACE GRAY SILVER AT&T T-Mobile Sprint Verizon Unlocked"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": [
+                "✤1-YR WARRANTY ✔ 3-5 DAY SHIP ✔ A/B/C Grade ✔ Charger✤"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "ht tp://thumbs1.ebaystatic.com/pict/1834011997364040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/iPhone-X-64GB-256GB-SPACE-GRAY-SILVER-AT-T-T-Mobile-Sprint-Verizon-Unlocked-/183401199736?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": [" true"],
+              "postalCode": ["91803"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["greenmartstore"],
+                  "storeURL": ["http://stores.ebay.com/greenmartstore"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["gmdeals_inc"],
+                  "feedbac kScore": ["3208"],
+                  "positiveFeedbackPercent": ["98.1"],
+                  "feedbackRatingStar": ["Red"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": [" Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "799.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "799.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P14DT10H12M49S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-08-27T08:11:44.000Z"],
+                  "endTime": ["2019-04-24T08:11:44.000Z"],
+                  "listingTy pe": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["9"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1500"],
+                  "conditionDisplayName": ["Open box"]
+                }
+              ],
+              "isMultiVariationListing ": ["true"],
+              "topRatedListing": ["true"]
+            },
+            {
+              "itemId": ["254192838802"],
+              "title": [
+                "Apple iPhone X - 64GB - Silver (Unlocked) A1901 (GSM)"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartp hones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs3.ebaystatic.com/m/mZvhsQFaUkmMtKHqvsmvjug/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-64GB-Silver-Unlocked-A1901-GSM-/254192838802"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__va lue__": "238941171"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["91801"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["URGOTECH"],
+                  "storeURL": ["http://stores.ebay.com/URGOTECH"]
+                }
+              ],
+              "sellerI nfo": [
+                {
+                  "sellerUserName": ["urgotech"],
+                  "feedbackScore": ["645"],
+                  "positiveFeedbackPercent": ["99.4"],
+                  "feedbackRatingStar": ["Purple"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0 "
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "560.0"
+                    }
+                  ],
+                  "converte dCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "560.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P28DT9H34M11S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-04-08T07:33:06.000Z"],
+                  "e ndTime": ["2019-05-08T07:33:06.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["5"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDispl ayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["183626910576"],
+              "title": [
+                "CHIP UNLOCKED [ iPhone X ] 64GB 256GB SPACE GRAY SILVER GSM A1901 READ"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/pict/1836269105764040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/CHIP-UNLOCKED-iPhone-X-64GB-256GB-SPACE-GRAY-SI LVER-GSM-A1901-READ-/183626910576?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["91803"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["greenmartstore"],
+                  "storeURL": ["http://stores.ebay .com/greenmartstore"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["gmdeals_inc"],
+                  "feedbackScore": ["3233"],
+                  "positiveFeedbackPercent": ["98.1"],
+                  "feedbackRatingStar": ["Red"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@cu rrencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "649.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "649.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P28DT20H33M50S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime ": ["2019-01-08T18:32:45.000Z"],
+                  "endTime": ["2019-05-08T18:32:45.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["11"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "con ditionId": ["2000"],
+                  "conditionDisplayName": ["Manufacturer refurbished"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["true"]
+            },
+            {
+              "itemId": ["183710093196"],
+              "title": [
+                "Apple iPhone X - 64GB - Space Gray (Sprint) A1865 (CDMA + GSM )"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/pict/1837100931964040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/App le-iPhone-X-64GB-Space-Gray-Sprint-A1865-CDMA-GSM-/183710093196"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239009532"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90211"],
+              "location": ["Beverly Hills,CA,USA"],
+              " country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Ghost Rider Productions"],
+                  "storeURL": ["http://stores.ebay.com/Ghost-Rider-Productions"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["ghosride_50"],
+                  "feedbackScore": ["487"],
+                  "positiveFeedbackPercent": [" 96.0"],
+                  "feedbackRatingStar": ["Turquoise"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["fals e"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "729.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "729.99"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P20DT19H38M58S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-03-01T17:37:53.000Z"],
+                  "endTime": ["2019-04-30T17:37:53.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["fal se"],
+                  "watchCount": ["13"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+                "itemId": ["264270680590"],
+              "title": [
+                "Apple iPhone X - 64GB - Space Gray (Verizon) A1865 (CDMA + GSM)"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "ht tp://thumbs3.ebaystatic.com/m/mQ-ZXsuEeiWD0DvJR7x5r0w/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-64GB-Space-Gray-Verizon-A1865-CDMA-GSM-/264270680590"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239092975"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90026"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["bac_jo1"],
+                  "feedbackScore": ["0"],
+                  "positiveFeedbackPercent": ["0.0"],
+                  "feedbackRa tingStar": ["None"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.35"
+                    }
+                  ],
+                  "shippingType": ["Calculated"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippi ngAvailable": ["false"],
+                  "handlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "525.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "525.0"
+                    }
+                  ],
+                  "bidCount": ["0"],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P2DT17H25M59S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["true"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-04-06T03:24:54.000Z"],
+                  "endTime": ["2019-04-12T15:24:54.000Z"],
+                  "listingType": ["Auction"],
+                  "gift": ["false"],
+                  "watch Count": ["5"]
+                }
+              ],
+              "returnsAccepted": ["false"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "5.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["153309513311"],
+              "title": [
+                "Hybrid Shockproof Thin Clear TPU Bumper Case Fits iPhone "
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaysta tic.com/pict/1533095133114040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Hybrid-Shockproof-Thin-Clear-TPU-Bumper-Case-Fits-iPhone-/153309513311?var="
+              ],
+              "autoPay": ["false"],
+              "postalCode": ["91754"],
+              "location": ["Monterey Park,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Storm-Buy"],
+                  "storeURL": ["http://stores.ebay.com/Storm-Buy"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["storm-buy"],
+                  "feedbackScore": ["30869"],
+                  "positiveFeedbackPercent": ["99.4"],
+                  "feedbackRatingStar ": ["TurquoiseShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingA vailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.97"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.97"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P8DT8H30M 45S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-12-19T06:29:40.000Z"],
+                  "endTime": ["2019-04-18T06:29:40.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["422"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["true"]
+            },
+            {
+              "itemId": ["183690900364"],
+              "title": ["Apple Iphone X 64gb Unlocked"],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/pict/1836909003644040_1.jpg"
+              ],
+              "vie wItemURL": [
+                "http://www.ebay.com/itm/Apple-Iphone-X-64gb-Unlocked-/183690900364?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90211"],
+              "location": ["Beverly Hills,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Ghost Rider Productions"],
+                  "storeURL": ["http://stores.ebay.com/Ghost-Rider-Productions"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["ghosride_50"],
+                  "feedbackScore": ["469"],
+                  "positiveFeedbackPercent": ["96.0"],
+                  "feedbackRatingStar": ["Turquoise"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["false"],
+                  "oneDayShippingAvailable": ["false"],
+                  "h andlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "694.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "694.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P9DT9H18M8S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-02-18T07:17:03.000Z"],
+                  "endTime": ["2019-04-19T07:17:03.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["5"]
+                }
+              ],
+              "returnsAccepted": ["t rue"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["2000"],
+                  "conditionDisplayName": ["Manufacturer refurbished"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["183660906199"],
+              "title": [
+                "Apple iPhone X - 64GB - Silver (Sprint) A1865 (CDMA + GSM)"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaystatic.com/pict/ 1836609061994040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-64GB-Silver-Sprint-A1865-CDMA-GSM-/183660906199"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239054330"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["tru e"],
+              "postalCode": ["90211"],
+              "location": ["Beverly Hills,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Ghost Rider Productions"],
+                  "storeURL": ["http://stores.ebay.com/Ghost-Rider-Productions"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["gh osride_50"],
+                  "feedbackScore": ["486"],
+                  "positiveFeedbackPercent": ["96.0"],
+                  "feedbackRatingStar": ["Turquoise"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["F ree"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["false"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "739.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@c urrencyId": "USD",
+                      "__value__": "739.99"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P20DT8H33M49S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-01-30T06:32:44.000Z"],
+                  "endTime": ["2019-04-3 0T06:32:44.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["7"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              " isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["132988096661"],
+              "title": ["Apple iPhone X - 64GB - Silver (AT&T) A1901 (GSM)"],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs2.ebaystatic.com/m/mOqf_fffw71obN8M_EjZUJQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-64GB-Silver-AT-T-A1901-GSM-/132988096661"
+              ],
+              "productId": [
+                {
+                  "@type": "R eferenceID",
+                  "__value__": "239054160"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90031"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["mirandaelisa2011"],
+                  "feedbackScore": ["51"],
+                  "positiveFeedbackPercent": ["0.0"],
+                  "feedbackRatingStar": ["Blue"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.85"
+                    }
+                  ],
+                  "shippingType": ["Calculated"],
+                  "shipToLocations": ["Worldwide "],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "660.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "660.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P3DT3H55M37S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["true"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-03-14T01:54:32.000Z"],
+                  "endTime": ["2019-04-13T01:54:32.000Z"],
+                  "listingType": ["FixedP rice"],
+                  "gift": ["false"],
+                  "watchCount": ["1"]
+                }
+              ],
+              "returnsAccepted": ["false"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRat edListing": ["false"]
+            },
+            {
+              "itemId": ["173826166117"],
+              "title": [
+                "Apple iPhone X - 64GB - Space Gray A1901 (GSM) (TMobile)"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "gal leryURL": [
+                "http://thumbs2.ebaystatic.com/m/mr-Z-x6umsUddyOC6Wk7LdA/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-64GB-Space-Gray-A1901-GSM-TMobile-/173826166117"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "238 944741"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90065"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["vmollova_13"],
+                  "feedbackScore": ["107"],
+                  "positiveFeedbackPercent": ["100 .0"],
+                  "feedbackRatingStar": ["Turquoise"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.99"
+                    }
+                  ],
+                  "shippingType": ["Flat"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "640.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "640.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "t imeLeft": ["P26DT16H10M8S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["true"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-03-07T14:09:03.000Z"],
+                  "endTime": ["2019-05-06T14:09:03.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watc hCount": ["8"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["2000"],
+                  "conditionDisplayName": ["Manufacturer refurbished"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["153252539888"],
+              "title": [
+                "Shockproof Clear Diamond Girl Lady Case Fits In iPhone XS Max/XR/X/6/6s/7/8 Plus"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Ski ns"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/pict/1532525398884040_10.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Shockproof-Clear-Diamond-Girl-Lady-Case-Fits-iPhone-XS-Max-XR-X-6-6s-7-8-Plus-/153252539888?var="
+              ],
+              "autoPay": [" false"],
+              "postalCode": ["91754"],
+              "location": ["Monterey Park,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Storm-Buy"],
+                  "storeURL": ["http://stores.ebay.com/Storm-Buy"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["storm-buy"],
+                  "feedbackScore ": ["31699"],
+                  "positiveFeedbackPercent": ["99.4"],
+                  "feedbackRatingStar": ["TurquoiseShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLoca tions": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.97"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__ value__": "7.97"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P28DT5H8M1S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-11-09T03:06:56.000Z"],
+                  "endTime": ["2019-05-08T03:06:56.000Z"],
+                  "listi ngType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["46"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing ": ["true"],
+              "topRatedListing": ["true"]
+            },
+            {
+              "itemId": ["382861410640"],
+              "title": [
+                "EXCELLENT iPhone X A1901 64GB AT&T +Free Shipping & WARRANTY!"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/m/mQcIG6ivUGqAP9FPs76kEBg/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/EXCELLENT-iPhone-X-A1901-64GB-AT-T-Free-Shipping-WARRANTY-/382861410640"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239054160"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90015"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["we_sell_hardware"],
+                  "feedbackScore": ["57 7"],
+                  "positiveFeedbackPercent": ["97.5"],
+                  "feedbackRatingStar": ["Purple"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide "],
+                  "expeditedShipping": ["false"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "644.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "644.9 9"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P14DT8H50M40S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["true"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-03-25T06:49:35.000Z"],
+                  "endTime": ["2019-04-24T06:49:35.000Z"],
+                  "listingType": ["Fi xedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["1"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "5.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topR atedListing": ["false"]
+            },
+            {
+              "itemId": ["183401192937"],
+              "title": [
+                "AT&T Cricket Apple iPhone X 64GB 256GB SILVER SPACE GRAY A1901 (GSM)"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": [
+                "✤1-YR WARRANTY ✔ 3-5 DAY SHIP ✔ A/B/C Grade ✔ Charger✤"
+              ],
+              "primaryC ategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs2.ebaystatic.com/pict/1834011929374040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/AT-T-Cricket-Apple-iPhone-X-64GB-256GB- SILVER-SPACE-GRAY-A1901-GSM-/183401192937?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["91803"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["greenmartstore"],
+                  "storeURL": ["http://sto res.ebay.com/greenmartstore"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["gmdeals_inc"],
+                  "feedbackScore": ["3208"],
+                  "positiveFeedbackPercent": ["98.1"],
+                  "feedbackRatingStar": ["Red"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost ": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyI d": "USD",
+                      "__value__": "829.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "829.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P14DT10H2M57S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "st artTime": ["2018-08-27T08:01:52.000Z"],
+                  "endTime": ["2019-04-24T08:01:52.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["50"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1500"],
+                  "conditionDisplayName": ["Open box"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["183035701669"],
+              "title": ["NEW Sealed Apple iPhone X 256GB Silver Verizon"],
+              "globalId": ["EBAY-US "],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs2.ebaystatic.com/m/mT1go_0mKeMAdiqERQGTDVw/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/NEW-Sealed-Apple-iPho ne-X-256GB-Silver-Verizon-/183035701669"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239160993"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90211"],
+              "location": ["Beverly Hills,CA,USA"],
+              "country": ["US"],
+              "storeI nfo": [
+                {
+                  "storeName": ["Ghost Rider Productions"],
+                  "storeURL": ["http://stores.ebay.com/Ghost-Rider-Productions"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["ghosride_50"],
+                  "feedbackScore": ["469"],
+                  "positiveFeedbackPercent": ["96.0"],
+                  "feedbackRatingS tar": ["Turquoise"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "10.24"
+                    }
+                  ],
+                  "shippingType": ["Calculated"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["false"],
+                  "oneDayShip pingAvailable": ["false"],
+                  "handlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "1499.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "1499.99"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P10DT7H35M15S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-01-25T05:34:10.000Z"],
+                  "endTime": ["2019-04-20T05:34:10.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCou nt": ["3"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["1 83481138647"],
+              "title": [
+                "FULLY UNLOCKED Apple iPhone X 64GB SILVER GSM CDMA A1865 ✤ BACK WITH DECAL ✤"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http ://thumbs4.ebaystatic.com/pict/1834811386474040_3.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/FULLY-UNLOCKED-Apple-iPhone-X-64GB-SILVER-GSM-CDMA-A1865-BACK-DECAL-/183481138647?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "po stalCode": ["91803"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["greenmartstore"],
+                  "storeURL": ["http://stores.ebay.com/greenmartstore"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["gmdeals_inc"],
+                  "feedbackScore": [" 3238"],
+                  "positiveFeedbackPercent": ["98.1"],
+                  "feedbackRatingStar": ["Red"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "649.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "649.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P29DT8H59M36S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-10-11T06:58:31.000Z"],
+                  "endTime": ["2019-05-09T06:58:31.000Z"],
+                  "listingType": ["Store Inventory"],
+                  "gift": ["false"],
+                  "watchCount": ["6"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["2500"],
+                  "conditionDisplayName": ["Seller refurbished"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["153355909808"],
+              "title": [
+                "Hybrid Shockproof Heavy Duty Clear Case Fits In iPhone XS Max XR/X/6/6s/7/8 Plus"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "category Name": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/pict/1533559098084040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Hybrid-Shockproof-Heavy-Duty-Clear-Case-Fits-iPhone-XS-Max-XR-X-6-6s-7-8-Plus-/153355 909808?var="
+              ],
+              "autoPay": ["false"],
+              "postalCode": ["91754"],
+              "location": ["Monterey Park,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Storm-Buy"],
+                  "storeURL": ["http://stores.ebay.com/Storm-Buy"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": [" storm-buy"],
+                  "feedbackScore": ["31699"],
+                  "positiveFeedbackPercent": ["99.4"],
+                  "feedbackRatingStar": ["TurquoiseShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shipping Type": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "8.97"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "8.97"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P18DT20H26M21S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-01-28T18:25:16.000Z"],
+                  "endTime": ["2019 -04-28T18:25:16.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["142"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["Ne w"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["true"]
+            },
+            {
+              "itemId": ["153285189125"],
+              "title": [
+                "Fits iPhone XS Max XR Case Transparent Clear Hybrid Shockproof Bumper TPU "
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categor yId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs2.ebaystatic.com/pict/1532851891254040_3.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Fits-iPhone-XS-Max-XR-Case-Transparent-Clear-Hybrid-Shockproo f-Bumper-TPU-/153285189125?var="
+              ],
+              "autoPay": ["false"],
+              "postalCode": ["91754"],
+              "location": ["Monterey Park,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Storm-Buy"],
+                  "storeURL": ["http://stores.ebay.com/Storm-Buy"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["storm-buy"],
+                  "feedbackScore": ["31376"],
+                  "positiveFeedbackPercent": ["99.4"],
+                  "feedbackRatingStar": ["TurquoiseShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value_ _": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.97"
+                    }
+                  ],
+                  "co nvertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.97"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P20DT10H1M29S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-12-01T08:00:24.000Z "],
+                  "endTime": ["2019-04-30T08:00:24.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["70"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditio nDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["true"]
+            },
+            {
+              "itemId": ["153315190229"],
+              "title": [
+                "Apple iPhone X - 64GB - Space Gray (T-Mobile) A1901 (GSM)"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "catego ryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs2.ebaystatic.com/m/mg15rDKxk896io3yq-DEXQQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-64GB-Space-Gray-T-Mobile-A1901-GSM-/ 153315190229"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239086349"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90640"],
+              "location": ["Montebello,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["drum merboy1235"],
+                  "feedbackScore": ["10"],
+                  "positiveFeedbackPercent": ["100.0"],
+                  "feedbackRatingStar": ["Yellow"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.85"
+                    }
+                  ],
+                  "shippingType": ["Ca lculated"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "675.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "675.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P13DT1H52M45S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["true"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-12-23T23:51:40.000Z"],
+                  "endTime": ["2019-04- 22T23:51:40.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["7"]
+                }
+              ],
+              "returnsAccepted": ["false"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "i sMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["264273682773"],
+              "title": ["Apple iPhone X - 256GB - Silver (AT&T) A1901 (GSM)"],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs2.ebaystatic.com/m/mGwLGP1kZ1BZQZw4nYgfOwQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-256GB-Silver-AT-T-A1901-GSM-/264273682773"
+              ],
+              "productId": [
+                {
+                  "@type": " ReferenceID",
+                  "__value__": "239086269"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90027"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["leninakansy"],
+                  "feedbackScore": ["61"],
+                  "po sitiveFeedbackPercent": ["100.0"],
+                  "feedbackRatingStar": ["Blue"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.85"
+                    }
+                  ],
+                  "shippingType": ["Calculated"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "500.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "500.0"
+                    }
+                  ],
+                  "bidCount": ["1"],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P4DT23H9M6S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-04-07T21:08:01.000Z"],
+                  "endTime": ["2019-04-14T21:08:01.000Z"],
+                  "listi ngType": ["Auction"],
+                  "gift": ["false"],
+                  "watchCount": ["4"]
+                }
+              ],
+              "returnsAccepted": ["false"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["fa lse"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["282793570638"],
+              "title": [
+                "For IPhone X 8 6 6S 7 Plus Fashion Flower 3D Cute Case Cover Silicone TPU Women"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": ["◆8000+ SOLD◆New For iPhone XS XS Max, XR◆US Stock"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs3.ebaystatic.com/pict/2827935706384040_8.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/IPhone-X-8-6-6S-7-Plus-Fa shion-Flower-3D-Cute-Case-Cover-Silicone-TPU-Women-/282793570638?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90022"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["e-CaseMB"],
+                  "st oreURL": ["http://stores.ebay.com/e-CaseMB"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["amynaruto"],
+                  "feedbackScore": ["26383"],
+                  "positiveFeedbackPercent": ["99.0"],
+                  "feedbackRatingStar": ["TurquoiseShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingI nfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["false"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.99"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P17DT5H14M9S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNo wAvailable": ["false"],
+                  "startTime": ["2018-01-02T03:13:04.000Z"],
+                  "endTime": ["2019-04-27T03:13:04.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["218"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__ ": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["254184083949"],
+              "title": [
+                "Apple iPhone X - 256GB - Space Gray + Extras (Unlock ed) A1901 (GSM) "
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs2.ebaystatic.com/m/mb-AmeBgDzpkVfa1iD0J6RA/140.jpg"
+              ],
+              "viewItemURL": [
+                "http:/ /www.ebay.com/itm/Apple-iPhone-X-256GB-Space-Gray-Extras-Unlocked-A1901-GSM-/254184083949"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239160993"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90046"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["GeekMadness.Store"],
+                  "storeURL": ["http://stores.ebay.com/GeekMadness-Store"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["geekmadness.store"],
+                  "feedbackScore": ["350"],
+                  "positiveF eedbackPercent": ["100.0"],
+                  "feedbackRatingStar": ["Turquoise"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "9.9"
+                    }
+                  ],
+                  "shippingType": ["Calculated"],
+                  "shipToLocations": ["Worldwide"],
+                  " expeditedShipping": ["false"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "799.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "799.0"
+                    }
+                  ],
+                  " sellingState": ["Active"],
+                  "timeLeft": ["P20DT23H29M41S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["true"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-03-31T21:28:36.000Z"],
+                  "endTime": ["2019-04-30T21:28:36.000Z"],
+                  "listingType": ["StoreIn ventory"],
+                  "gift": ["false"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["fals e"]
+            },
+            {
+              "itemId": ["173848270241"],
+              "title": [
+                "Apple iPhone X - 256GB - Space Gray (Unlocked) A1865 (CDMA + GSM)"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs2.ebaystatic.com/m/m6B044Ts_IwMZnb_1JlopMg/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-256GB-Space-Gray-Unlocked-A1865-CDMA-GSM-/173848270241"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "2404 20150"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90029"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["mvrh1791"],
+                  "feedbackScore": ["47"],
+                  "positiveFeedbackPercent": ["100.0"],
+                  "feedbackRatingStar": ["Yellow"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.85"
+                    }
+                  ],
+                  "shippingType": ["Calculated"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "770.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "770.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "tim eLeft": ["P13DT0H50M48S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["true"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-03-23T22:50:43.000Z"],
+                  "endTime": ["2019-04-22T22:49:43.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchC ount": ["2"]
+                }
+              ],
+              "returnsAccepted": ["false"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "5.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["283193870290"],
+              "title": [
+                "Apple iPhone X - 256GB - Space Gray (Unlocked) A1901 (GSM) (CA)"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs3 .ebaystatic.com/m/mr-Z-x6umsUddyOC6Wk7LdA/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-256GB-Space-Gray-Unlocked-A1901-GSM-CA-/283193870290"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239086339"
+                }
+              ],
+              "paymentMe thod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90210"],
+              "location": ["Beverly Hills,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["info839"],
+                  "feedbackScore": ["8"],
+                  "positiveFeedbackPercent": ["100.0"],
+                  "feedbackRatingStar": ["None"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.85"
+                    }
+                  ],
+                  "shippingType": ["Calculated"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailab le": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "800.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "800.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P23DT3H33M50S "]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["true"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-10-05T01:32:45.000Z"],
+                  "endTime": ["2019-05-03T01:32:45.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["2"]
+                }
+              ],
+              "returns Accepted": ["false"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["153283857227"],
+              "tit le": [
+                "Apple iPhone X - 64GB - Space Gray (Unlocked) A1901 (GSM)"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaystatic.com/m/mr-Z-x6um sUddyOC6Wk7LdA/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-64GB-Space-Gray-Unlocked-A1901-GSM-/153283857227"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239093115"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["tr ue"],
+              "postalCode": ["90004"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["genius744727"],
+                  "feedbackScore": ["151"],
+                  "positiveFeedbackPercent": ["100.0"],
+                  "feedbackRatingStar": ["Turquoise"],
+                  "topRatedSe ller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "15.0"
+                    }
+                  ],
+                  "shippingType": ["Flat"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime ": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "680.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "680.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P19DT11H51M10S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "best OfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-11-30T09:50:05.000Z"],
+                  "endTime": ["2019-04-29T09:50:05.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["14"]
+                }
+              ],
+              "returnsAccepted": ["false"],
+              "dis tance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "5.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["173544369168"],
+              "title": [
+                "iPhone X 64GB Space Gray PLEASE READ DESCRIPTION NO OFFERS "
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/m/m_u6Iu15lfBjgRmaHjaIsBA/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/iPhone-X-64GB-Space-Gray-PLEASE-READ-DESCRIPTION-NO-OFFERS-/173544369168"
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90062"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["U S"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["asmo-5720"],
+                  "feedbackScore": ["0"],
+                  "positiveFeedbackPercent": ["0.0"],
+                  "feedbackRatingStar": ["None"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value __": "15.0"
+                    }
+                  ],
+                  "shippingType": ["Flat"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["false"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "680.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "680.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P7DT19H22M52S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-09-20T05:21:47 .000Z"],
+                  "endTime": ["2019-04-17T17:21:47.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["1"]
+                }
+              ],
+              "returnsAccepted": ["false"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "5.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditio nDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["202648062491"],
+              "title": [
+                "Apple iPhone X - 64GB - Silver (Unlocked) A1865 (CDMA + GSM)"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  " categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaystatic.com/m/m-SZLOBPSguLTp-oiQQzTWg/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-64GB-Silver-Unlocked-A1865-CDM A-GSM-/202648062491"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "240455169"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90002"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserNam e": ["sumor-6420"],
+                  "feedbackScore": ["0"],
+                  "positiveFeedbackPercent": ["0.0"],
+                  "feedbackRatingStar": ["None"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.85"
+                    }
+                  ],
+                  "shippingType": ["Ca lculated"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "405.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "405.0"
+                    }
+                  ],
+                  "bidCount": ["7"],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P4DT19H19M58S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-04-07T17:19:53.000Z"],
+                  "e ndTime": ["2019-04-14T17:18:53.000Z"],
+                  "listingType": ["Auction"],
+                  "gift": ["false"],
+                  "watchCount": ["22"]
+                }
+              ],
+              "returnsAccepted": ["false"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "5.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName ": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["202529538424"],
+              "title": [
+                "For iPhone XS Max XR Luxury 9H Hard Tempered Glass Case Mirror Glass Back Cover"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": [
+                "7 Plus 6S 8 Plus Fast Ship,USA Stock,Tracking Number!!"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/pict/2025295384244040_2.jpg"
+              ],
+              "viewItemURL": [
+                "h ttp://www.ebay.com/itm/iPhone-XS-Max-XR-Luxury-9H-Hard-Tempered-Glass-Case-Mirror-Glass-Back-Cover-/202529538424?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90220"],
+              "location": ["Compton,CA,USA"],
+              "country": ["US "],
+              "storeInfo": [
+                {
+                  "storeName": ["Donni-smile"],
+                  "storeURL": ["http://stores.ebay.com/Donni-smile"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["donni-smile"],
+                  "feedbackScore": ["15141"],
+                  "positiveFeedbackPercent": ["98.6"],
+                  "feedbackRatingStar": ["Yello wShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": [" false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "8.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "8.99"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P27DT6H57M31S"]
+                }
+              ],
+              "li stingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-12-08T04:56:26.000Z"],
+                  "endTime": ["2019-05-07T04:56:26.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["49"]
+                }
+              ],
+              "returnsAccept ed": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["272899361199"],
+              "title": [
+                "Lux ury Leather Flip Card Wallet Phone Case Cover Stand fo iPhone 6 6S 7 8 Plus X"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": [
+                "◆20000+ SOLD◆ For iPhone 5s SE, XR, XS Max ◆ US Ship"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cas es, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaystatic.com/pict/2728993611994040_10.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Luxury-Leather-Flip-Card-Wallet-Phone-Case-Cover-Stand-fo-iPhone-6-6S-7-8-Plus-X-/272899361199? var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90022"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["e-CaseMB"],
+                  "storeURL": ["http://stores.ebay.com/e-CaseMB"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sel lerUserName": ["amynaruto"],
+                  "feedbackScore": ["26383"],
+                  "positiveFeedbackPercent": ["99.0"],
+                  "feedbackRatingStar": ["TurquoiseShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0 .0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["false"],
+                  "oneDayShippingAvailable": ["true"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.96"
+                    }
+                  ],
+                  "convert edCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.96"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P7DT4H1M21S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2017-10-24T02:00:16.000Z"],
+                  "end Time": ["2019-04-17T02:00:16.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["89"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDispla yName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["202519898348"],
+              "title": [
+                "Luxury Phone Case For iPhone XR XS Max 6S 7 Mirror Plating Tempered Glass Cover"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCat egory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/pict/2025198983484040_8.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Luxury-Phone-Case-iPhone-XR-XS-Max-6S-7-Mirr or-Plating-Tempered-Glass-Cover-/202519898348?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90220"],
+              "location": ["Compton,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Donni-smile"],
+                  "storeURL": ["http://st ores.ebay.com/Donni-smile"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["donni-smile"],
+                  "feedbackScore": ["15141"],
+                  "positiveFeedbackPercent": ["98.6"],
+                  "feedbackRatingStar": ["YellowShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingS erviceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      " @currencyId": "USD",
+                      "__value__": "8.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "8.99"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P19DT6H51M31S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["fal se"],
+                  "startTime": ["2018-11-30T04:50:26.000Z"],
+                  "endTime": ["2019-04-29T04:50:26.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["11"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condit ion": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["202529490510"],
+              "title": [
+                "For iPhone XR XS MAX X 7 8 Plus Clear TPU Case Cover With Magnetic Rin g Holder"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs3.ebaystatic.com/pict/2025294905104040_2.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm /iPhone-XR-XS-MAX-X-7-8-Plus-Clear-TPU-Case-Cover-Magnetic-Ring-Holder-/202529490510?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90220"],
+              "location": ["Compton,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Donni-smile"],
+                  "storeURL": ["http://stores.ebay.com/Donni-smile"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["donni-smile"],
+                  "feedbackScore": ["15132"],
+                  "positiveFeedbackPercent": ["98.6"],
+                  "feedbackRatingStar": ["YellowShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "8.89"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "8.89"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P27DT5H43M1S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnable d": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-12-08T03:41:56.000Z"],
+                  "endTime": ["2019-05-07T03:41:56.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["24"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@u nit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["263471413006"],
+              "title": [
+                "Premium Real Screen Protector Te mpered Glass Film For iPhone 6 7 8 Plus Xs Max"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": [
+                "Available for ALL iPhone Models- iPhone 8 X Xs XR X Max"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": ["58540"],
+                  "categoryName": ["Screen Protectors"]
+                }
+              ],
+              "galleryU RL": [
+                "http://thumbs3.ebaystatic.com/pict/2634714130064040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Premium-Real-Screen-Protector-Tempered-Glass-Film-iPhone-6-7-8-Plus-Xs-Max-/263471413006?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "auto Pay": ["true"],
+              "postalCode": ["91801"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Ancer Us"],
+                  "storeURL": ["http://stores.ebay.com/Ancer-Us"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["ancer-us"],
+                  "feedbackScore": ["102879"],
+                  "positiveFeedbackPercent": ["97.4"],
+                  "feedbackRatingStar": ["RedShooting"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["0"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.09"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value_ _": "4.09"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P18DT0H25M12S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-02-01T22:24:07.000Z"],
+                  "endTime": ["2019-04-27T22:24:07.000Z"],
+                  "listingTy pe": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["261"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["202491341070"],
+              "title": [
+                "OEM Apple iPhone X 8 7 6S Plus BLACK White LCD Digitizer Display Screen Original"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": [
+                "✔Warranty ✔3 Day Mail ✔ A B Grade ✔ NEVER Repaired Part"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": ["43304"],
+                  "categoryName": ["Cell Phone & Smartphone Parts"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs3.ebaystatic.com/pict/2024913410704040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/OEM-Appl e-iPhone-X-8-7-6S-Plus-BLACK-White-LCD-Digitizer-Display-Screen-Original-/202491341070?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["91803"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeNam e": ["123321imkt"],
+                  "storeURL": ["http://stores.ebay.com/123321imkt"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["123321imkt"],
+                  "feedbackScore": ["9101"],
+                  "positiveFeedbackPercent": ["98.8"],
+                  "feedbackRatingStar": ["Green"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "selling Status": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "90.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "90.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P23DT1H41M25S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false "],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-11-03T23:40:20.000Z"],
+                  "endTime": ["2019-05-02T23:40:20.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["33"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": " mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1500"],
+                  "conditionDisplayName": ["Open box"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["true"]
+            },
+            {
+              "itemId": ["202091982375"],
+              "title": [
+                "[3 Pack] iPhone X / 8 / 8 Plus XS MAX for Apple Tempered Glass Screen Protector"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": [
+                "✅3-Pack✅Shatter-Proof✅Bubble-Free✅3D-Touch✅ US SELLER"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": ["58540"],
+                  "categoryName": ["Screen Protectors"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaystatic.com/pict/2020919823754040_2.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/3-Pack-iPhone-X-8-8-Plus-XS-MAX-Apple-Tempered-Glass-Screen-Protector-/202091982375?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["t rue"],
+              "postalCode": ["91803"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["123321imkt"],
+                  "storeURL": ["http://stores.ebay.com/123321imkt"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["123321imkt"],
+                  "feedbackScore": [" 9104"],
+                  "positiveFeedbackPercent": ["98.8"],
+                  "feedbackRatingStar": ["Green"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwid e"],
+                  "expeditedShipping": ["false"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.99"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P8DT5H59M58S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2017-10-25T03:58:53.000Z"],
+                  "endTime": ["2019-04-18T03:58:53.000Z"],
+                  "listingType": ["Store Inventory"],
+                  "gift": ["false"],
+                  "watchCount": ["48"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "top RatedListing": ["true"]
+            },
+            {
+              "itemId": ["123513167558"],
+              "title": [
+                "Apple iPhone X - 64GB - Silver (Verizon) A1865 (CDMA + GSM)"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs3.ebaystatic.com/m/mAbnwDcjg8TWJLpUNYg858g/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-64GB-Silver-Verizon-A1865-CDMA-GSM-/123513167558"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__ ": "239160983"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90210"],
+              "location": ["Beverly Hills,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["jctsang01"],
+                  "feedbackScore": ["24"],
+                  "positiveFeedbackPercent": ["100.0"],
+                  "feedbackRatingStar": ["Yellow"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true "],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "745.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "745.0"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  " timeLeft": ["P16DT3H58M7S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-11-27T01:57:02.000Z"],
+                  "endTime": ["2019-04-26T01:57:02.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"]
+                }
+              ],
+              "r eturnsAccepted": ["false"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["381066663107"],
+              "title": [
+                "Luxury Leather Wallet Flip Case Cover For iPhone X 6 6S 7 8 Plus XS "
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": ["US Seller, Fast Delivery, Free Shipping"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaystatic.com/pict/3810666631074040_19.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Luxury-Leather-Wallet-Flip-Case-Cover-iPhone-X-6-6S-7-8-Plus-XS-/381066663107?var="
+              ],
+              "paymentMetho d": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["91801"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["HTPCUSA"],
+                  "storeURL": ["http://stores.ebay.com/HTPCUSA"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["htpcusa"],
+                  "feedbackScore": ["59274"],
+                  "positiveFeedbackPercent": ["99.7"],
+                  "feedbackRatingStar": ["PurpleShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "9.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId ": "USD",
+                      "__value__": "9.99"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P24DT0H43M32S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2014-11-25T22:42:27.000Z"],
+                  "endTime": ["2019-05-03T22:42:27. 000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["300"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVa riationListing": ["true"],
+              "topRatedListing": ["true"]
+            },
+            {
+              "itemId": ["133014855027"],
+              "title": ["Apple iPhone X 64GB Space Gray AT&T"],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphone s"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaystatic.com/m/mbnX3RHMeiWYJjZKrZWxNDA/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-64GB-Space-Gray-AT-T-/133014855027"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239009 342"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90248"],
+              "location": ["Gardena,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["leaf_24"],
+                  "feedbackScore": ["191"],
+                  "positiveFeedbackPercent": ["100.0"],
+                  "feedb ackRatingStar": ["Turquoise"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.9"
+                    }
+                  ],
+                  "shippingType": ["Calculated"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "one DayShippingAvailable": ["false"],
+                  "handlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "750.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "750.0"
+                    }
+                  ],
+                  "bidCount": ["0"],
+                  "sellingState": [" Active"],
+                  "timeLeft": ["P1DT14H55M53S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["true"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-04-06T12:54:48.000Z"],
+                  "endTime": ["2019-04-11T12:54:48.000Z"],
+                  "listingType": ["Auction"],
+                  "gift": ["false "],
+                  "watchCount": ["1"]
+                }
+              ],
+              "returnsAccepted": ["false"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["202547963337"],
+              "title": [
+                "Shockproof Bling Crystal Diamond Kickstand Case Cover For iPhone XS Max 7 Plus 6"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "gal leryURL": [
+                "http://thumbs2.ebaystatic.com/pict/2025479633374040_2.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Shockproof-Bling-Crystal-Diamond-Kickstand-Case-Cover-iPhone-XS-Max-7-Plus-6-/202547963337?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90220"],
+              "location": ["Compton,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Donni-smile"],
+                  "storeURL": ["http://stores.ebay.com/Donni-smile"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["donni-smile"],
+                  "feedbackScore": ["15138"],
+                  "positiveFeedbackPercent": ["98.6"],
+                  "feedbackRatingStar": ["YellowShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "8.79"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId ": "USD",
+                      "__value__": "8.79"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P15DT6H15M17S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-12-26T04:14:12.000Z"],
+                  "endTime": ["2019-04-25T04:14:12. 000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["23"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariati onListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["273593354915"],
+              "title": [
+                "Cute Case For iPhone 6s 7 8 Plus XR XS Max Shockproof TPU Slim Cover Love Heart"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaystatic.com/pict/2735933549154040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Cute-Case-iPhone-6s-7-8-Plus-XR-XS-Max-Shockproof-TPU-Slim-Cover-Love-Heart- /273593354915?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90022"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["e-CaseMB"],
+                  "storeURL": ["http://stores.ebay.com/e-CaseMB"]
+                }
+              ],
+              "sell erInfo": [
+                {
+                  "sellerUserName": ["amynaruto"],
+                  "feedbackScore": ["26383"],
+                  "positiveFeedbackPercent": ["99.0"],
+                  "feedbackRatingStar": ["TurquoiseShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["false"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5 .99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.99"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P23DT4H7M59S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-12-04T02:0 6:54.000Z"],
+                  "endTime": ["2019-05-03T02:06:54.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["40"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "con ditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["202566489952"],
+              "title": [
+                "Tempered Glass Phone Case For iPhone XS Max 7 8 Plus Cover Luxury TPU Hard Cases"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/pict/2025664899524040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Tempered-Glass-Phone-Case-iPhon e-XS-Max-7-8-Plus-Cover-Luxury-TPU-Hard-Cases-/202566489952?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90220"],
+              "location": ["Compton,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Donni-smile"],
+                  "storeUR L": ["http://stores.ebay.com/Donni-smile"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["donni-smile"],
+                  "feedbackScore": ["15140"],
+                  "positiveFeedbackPercent": ["98.6"],
+                  "feedbackRatingStar": ["YellowShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo ": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "cur rentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "8.98"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "8.98"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P5DT6H36M37S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAva ilable": ["false"],
+                  "startTime": ["2019-01-15T04:35:32.000Z"],
+                  "endTime": ["2019-04-15T04:35:32.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["10"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10 .0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["163517441983"],
+              "title": [
+                "For iPhone 6 6s 7 8 Plus X XS MAX XR Case Shockproof Clea r Soft TPU Bumper Cover"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaystatic.com/pict/1635174419834040_2.jpg"
+              ],
+              "viewItemURL": [
+                "http://w ww.ebay.com/itm/iPhone-6-6s-7-8-Plus-X-XS-MAX-XR-Case-Shockproof-Clear-Soft-TPU-Bumper-Cover-/163517441983?var="
+              ],
+              "autoPay": ["false"],
+              "postalCode": ["91754"],
+              "location": ["Monterey Park,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName ": ["Storm-Buy"],
+                  "storeURL": ["http://stores.ebay.com/Storm-Buy"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["storm-buy"],
+                  "feedbackScore": ["31407"],
+                  "positiveFeedbackPercent": ["99.4"],
+                  "feedbackRatingStar": ["TurquoiseShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["false"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.97"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "5.97"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P21DT10H33M50S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabl ed": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2019-01-31T08:32:45.000Z"],
+                  "endTime": ["2019-05-01T08:32:45.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["12"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["true"]
+            },
+            {
+              "itemId": ["192662746773"],
+              "title": [
+                "For iPhone X XS Max XR Luxur y Ultra thin 9H Hard Tempered Glass Case Back Cover"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs2.ebaystatic.com/pict/1926627467734040_1.jp g"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/iPhone-X-XS-Max-XR-Luxury-Ultra-thin-9H-Hard-Tempered-Glass-Case-Back-Cover-/192662746773?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90001"],
+              "location": ["Los Angeles ,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["leoyuan2017"],
+                  "storeURL": ["http://stores.ebay.com/leoyuan2017"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["leoyuan2017"],
+                  "feedbackScore": ["13922"],
+                  "positiveFeedbackPercent": ["97.1"],
+                  "fee dbackRatingStar": ["YellowShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["false"],
+                  "on eDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "6.84"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "6.84"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft ": ["P7DT4H35M10S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-09-19T02:34:05.000Z"],
+                  "endTime": ["2019-04-17T02:34:05.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["72"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "5.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["20248 1435771"],
+              "title": [
+                "Luxury Bling Glitter Sparkle Clear Case Cover for Apple iPhone Xs Max Xr X 8Plus"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http:// thumbs4.ebaystatic.com/pict/2024814357714040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Luxury-Bling-Glitter-Sparkle-Clear-Case-Cover-Apple-iPhone-Xs-Max-Xr-X-8Plus-/202481435771?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["fals e"],
+              "postalCode": ["90220"],
+              "location": ["Compton,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Donni-smile"],
+                  "storeURL": ["http://stores.ebay.com/Donni-smile"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["donni-smile"],
+                  "feedbackScore": [" 15141"],
+                  "positiveFeedbackPercent": ["98.6"],
+                  "feedbackRatingStar": ["YellowShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.48"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__ ": "7.48"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P14DT3H38M52S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-10-26T01:37:47.000Z"],
+                  "endTime": ["2019-04-24T01:37:47.000Z"],
+                  "listingTyp e": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["17"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["173670298226"],
+              "title": [
+                "For iPhone X 7 8 Plus XR XS Max Magnetic TPU Rubber Case Cover with Ring Holder"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["C ases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs3.ebaystatic.com/pict/1736702982264040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/iPhone-X-7-8-Plus-XR-XS-Max-Magnetic-TPU-Rubber-Case-Cover-Ring-Holder-/173670298226?var="
+              ],
+              "p aymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90022"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["CalvinTmall"],
+                  "storeURL": ["http://stores.ebay.com/CalvinTmall"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "seller UserName": ["calvintmall"],
+                  "feedbackScore": ["3785"],
+                  "positiveFeedbackPercent": ["99.0"],
+                  "feedbackRatingStar": ["Red"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shipping Type": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["false"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "6.79"
+                    }
+                  ],
+                  "convertedCurrentPrice ": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "6.79"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P20DT21H49M46S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-12-01T19:48:41.000Z"],
+                  "endTime": ["201 9-04-30T19:48:41.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["15"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["253573760204"],
+              "title": [
+                "For iPhone 8 Plus / 7 Plus Premium Tempered Glass Clear Screen Protector [3pcs]"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": ["US OFFICIAL✔ FREE SHIPPING✔ BEST SELLER✔"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["58540"],
+                  "categoryName": ["Screen Protectors"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/pict/2535737602044040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/iPhone- 8-Plus-7-Plus-Premium-Tempered-Glass-Clear-Screen-Protector-3pcs-/253573760204?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["91801"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Anc er Us"],
+                  "storeURL": ["http://stores.ebay.com/Ancer-Us"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["ancer-us"],
+                  "feedbackScore": ["102220"],
+                  "positiveFeedbackPercent": ["97.4"],
+                  "feedbackRatingStar": ["RedShooting"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shi ppingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["0"]
+                }
+              ],
+              "sellingStatu s": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "3.89"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "3.89"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P5DT19H7M48S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "bu yItNowAvailable": ["false"],
+                  "startTime": ["2018-04-20T17:06:43.000Z"],
+                  "endTime": ["2019-04-15T17:06:43.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["10"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "_ _value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["263534044798"],
+              "title": [
+                "✔ Real Tempered Glass Screen Protector HD Pr emium For iPhone XSmax/XR/XS/X/8/7/6"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": ["Available for ALL iPhone Models - Ships from USA"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["58540"],
+                  "categoryName": ["Screen Protectors"]
+                }
+              ],
+              "galleryURL": [
+                "http://thum bs3.ebaystatic.com/pict/2635340447984040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Real-Tempered-Glass-Screen-Protector-HD-Premium-iPhone-XSmax-XR-XS-X-8-7-6-/263534044798?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "po stalCode": ["91801"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Ancer Us"],
+                  "storeURL": ["http://stores.ebay.com/Ancer-Us"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["ancer-us"],
+                  "feedbackScore": ["102878"],
+                  "posit iveFeedbackPercent": ["97.4"],
+                  "feedbackRatingStar": ["RedShooting"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "e xpeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["0"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.47"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.47"
+                    }
+                  ],
+                  "sell ingState": ["Active"],
+                  "timeLeft": ["P20DT0H4M26S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-03-05T22:03:21.000Z"],
+                  "endTime": ["2019-04-29T22:03:21.000Z"],
+                  "listingType": ["StoreInvento ry"],
+                  "gift": ["false"],
+                  "watchCount": ["129"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedL isting": ["false"]
+            },
+            {
+              "itemId": ["253325349952"],
+              "title": [
+                "For Apple iPhone X/8/7 Plus Ultra Thin Transparent Clear Shockproof Bumper Case"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": ["[FREE SHIPPING][BEST SELLER]"],
+              "primaryCategory": [
+                {
+                  "category Id": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs1.ebaystatic.com/pict/2533253499524040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X-8-7-Plus-Ultra-Thin-Transparent-Clear-Shockproo f-Bumper-Case-/253325349952?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["91801"],
+              "location": ["Alhambra,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Ancer Us"],
+                  "storeURL": ["http://stores.ebay.com/Ancer-U s"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["ancer-us"],
+                  "feedbackScore": ["100325"],
+                  "positiveFeedbackPercent": ["97.4"],
+                  "feedbackRatingStar": ["RedShooting"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["0"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value_ _": "3.95"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "3.95"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P6DT19H4M9S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2017-12-22T 17:03:04.000Z"],
+                  "endTime": ["2019-04-16T17:03:04.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["50"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["100 0"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["322818900351"],
+              "title": [
+                "Fashion Nike Sport Print Strap TPU Case Cover For Apple iPhone X 5 6 6s 7 8 Plus"
+              ],
+              "globalId": [" EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaystatic.com/pict/3228189003514040_1.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Fashion-Nike-Sport-Prin t-Strap-TPU-Case-Cover-Apple-iPhone-X-5-6-6s-7-8-Plus-/322818900351?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90013"],
+              "location": ["Los Angeles,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["ViVi Diamon d Club"],
+                  "storeURL": ["http://stores.ebay.com/ViVi-Diamond-Club"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["babykula_318"],
+                  "feedbackScore": ["19308"],
+                  "positiveFeedbackPercent": ["100.0"],
+                  "feedbackRatingStar": ["YellowShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "9.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "9.99"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P26DT12H36M49S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnab led": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2017-10-13T10:35:44.000Z"],
+                  "endTime": ["2019-05-06T10:35:44.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["false"],
+                  "watchCount": ["38"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "5.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["true"]
+            },
+            {
+              "itemId": ["112986570138"],
+              "title": [
+                "For iPhone X 8 7 Plus Magnet ic Leather Removable Wallet Card Case F Women/Girls"
+              ],
+              "globalId": ["EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs3.ebaystatic.com/pict/1129865701384040_2.jp g"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/iPhone-X-8-7-Plus-Magnetic-Leather-Removable-Wallet-Card-Case-F-Women-Girls-/112986570138?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["true"],
+              "postalCode": ["90640"],
+              "location": ["Montebello, CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["smartmom2016"],
+                  "storeURL": ["http://stores.ebay.com/smartmom2016"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["yellowprice-hellhawk"],
+                  "feedbackScore": ["14356"],
+                  "positiveFeedbackPercent": ["9 9.7"],
+                  "feedbackRatingStar": ["YellowShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["t rue"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["1"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "12.21"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "12.21"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P26DT7H58M23S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "startTime": ["2018-05-11T05:57:18.000Z"],
+                  "endTime": ["2019-05-06T05:57:18.000Z"],
+                  "listingType": ["StoreInventory"],
+                  "gift": ["fals e"],
+                  "watchCount": ["45"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["true"]
+            },
+            {
+              "itemId": ["202525691939"],
+              "title": [
+                "Glitter Luxury Shiny Sparkly Silm Clear Case Cover for iPhone XR XS Max 8 Plus 7"
+              ],
+              "globalId": ["EBAY-US"],
+              "subtitle": [
+                "Fast Shipping, Beautiful High Quality Case for iPhone"
+              ],
+              "primaryCategory": [
+                {
+                  "ca tegoryId": ["20349"],
+                  "categoryName": ["Cases, Covers & Skins"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs4.ebaystatic.com/pict/2025256919394040_3.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Glitter-Luxury-Shiny-Sparkly-Silm-Clear-Case-Cover-iPhon e-XR-XS-Max-8-Plus-7-/202525691939?var="
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90220"],
+              "location": ["Compton,CA,USA"],
+              "country": ["US"],
+              "storeInfo": [
+                {
+                  "storeName": ["Donni-smile"],
+                  "storeURL": ["http://stores.ebay.c om/Donni-smile"]
+                }
+              ],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["donni-smile"],
+                  "feedbackScore": ["15131"],
+                  "positiveFeedbackPercent": ["98.6"],
+                  "feedbackRatingStar": ["YellowShooting"],
+                  "topRatedSeller": ["true"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": ["Free"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["2"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId ": "USD",
+                      "__value__": "8.98"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "8.98"
+                    }
+                  ],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P24DT4H37M50S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false"],
+                  "start Time": ["2018-12-05T02:36:45.000Z"],
+                  "endTime": ["2019-05-04T02:36:45.000Z"],
+                  "listingType": ["FixedPrice"],
+                  "gift": ["false"],
+                  "watchCount": ["14"]
+                }
+              ],
+              "returnsAccepted": ["true"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "con ditionId": ["1000"],
+                  "conditionDisplayName": ["New"]
+                }
+              ],
+              "isMultiVariationListing": ["true"],
+              "topRatedListing": ["false"]
+            },
+            {
+              "itemId": ["153442346654"],
+              "title": [
+                "Apple iPhone X - 64GB - Space Gray (AT&T) A1901 (GSM) Super Clean"
+              ],
+              "globalId": [" EBAY-US"],
+              "primaryCategory": [
+                {
+                  "categoryId": ["9355"],
+                  "categoryName": ["Cell Phones & Smartphones"]
+                }
+              ],
+              "galleryURL": [
+                "http://thumbs3.ebaystatic.com/m/msB8Lm6kY_OZm51F0OqQlWA/140.jpg"
+              ],
+              "viewItemURL": [
+                "http://www.ebay.com/itm/Apple-iPhone-X -64GB-Space-Gray-AT-T-A1901-GSM-Super-Clean-/153442346654"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239009342"
+                }
+              ],
+              "paymentMethod": ["PayPal"],
+              "autoPay": ["false"],
+              "postalCode": ["90245"],
+              "location": ["El Segundo,CA,USA"],
+              "country": ["US"],
+              "sellerInfo": [
+                {
+                  "sellerUserName": ["agabriel77"],
+                  "feedbackScore": ["139"],
+                  "positiveFeedbackPercent": ["100.0"],
+                  "feedbackRatingStar": ["Turquoise"],
+                  "topRatedSeller": ["false"]
+                }
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "7.85"
+                    }
+                  ],
+                  "shippingType": ["Calculated"],
+                  "shipToLocations": ["Worldwide"],
+                  "expeditedShipping": ["true"],
+                  "oneDayShippingAvailable": ["false"],
+                  "handlingTime": ["3"]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "_ _value__": "310.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "310.0"
+                    }
+                  ],
+                  "bidCount": ["4"],
+                  "sellingState": ["Active"],
+                  "timeLeft": ["P3DT19H46M33S"]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": ["false"],
+                  "buyItNowAvailable": ["false "],
+                  "startTime": ["2019-04-06T17:45:28.000Z"],
+                  "endTime": ["2019-04-13T17:45:28.000Z"],
+                  "listingType": ["Auction"],
+                  "gift": ["false"],
+                  "watchCount": ["22"]
+                }
+              ],
+              "returnsAccepted": ["false"],
+              "distance": [
+                {
+                  "@unit": "mi",
+                  "__value__": "10.0"
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": ["3000"],
+                  "conditionDisplayName": ["Used"]
+                }
+              ],
+              "isMultiVariationListing": ["false"],
+              "topRatedListing": ["false"]
+            }
+          ]
+        }
+      ],
+      "paginationOutput": [
+        {
+          "pageNumber": ["1"],
+          "entriesPerPage": ["50"],
+          "totalPages": ["1507"],
+          "totalEntries": ["753 07"]
+        }
+      ],
+      "itemSearchURL": [
+        "http://www.ebay.com/sch/i.html?LH_Distance=90007..10&_nkw=iphone+X&_fpos=90007&_fspt=1&_ipg=50&_os=S%7CST%7CD&_pgn=1&_pos=90007&_sadis=10&_stpos=90007"
+      ]
+    }
+  ]
+}

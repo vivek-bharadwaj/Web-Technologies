@@ -1,0 +1,21 @@
+{
+  "name": "product-search-angularjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Vivek Bharadwaj",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-svg-round-progressbar": "^0.4.8",
+    "angular-utils-pagination": "^0.11.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0",
+    "ui-bootstrap4": "^3.0.6"
+  }
+}

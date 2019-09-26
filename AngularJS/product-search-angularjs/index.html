@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.17/angular-material.min.css"
+      integrity="sha256-tnqXhWq+j8htiw1xdw6wQAOP+++O76bq75X/pus5IUg="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-messages.min.js"></script>
+
+    <script src="ui-bootstrap-tpls-3.0.6.min.js"></script>
+    <!-- Angular Material Library -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.17/angular-material.min.js"
+      integrity="sha256-D1cka/NMCmm7VQ0O+zZdnHd3JTRtF9s5WmaA5ZZNLVg="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="angular_scripts.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css"
+    />
+    <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+    <!-- Round Progress Bar -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-svg-round-progressbar/0.4.8/roundProgress.min.js"></script>
+
+    <title>Product Search</title>
+    <style>
+      .selected {
+        background-color: gray;
+      }
+    </style>
+  </head>
+
+  <body ng-app="App" ng-controller="MainController">
+    <div class="container rounded" style="background:#101010">
+      <div class="row text-light">
+        <div class="col-md-10 offset-md-1">
+          <br />
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h3>Product Search</h3>
+            </div>
+          </div>
+          <br />
+          <form
+            id="productSearchForm"
+            name="productSearchForm"
+            ng-submit="productSearchFormSubmit(productSearchForm.$valid)"
+            novalidate
+            ng-cloak
+          >
+            <div class="row form-group">
+              <div class="col-sm-3 offset-sm-1">
+                <label for="keyword" class="col-form-label"
+                  >Keyword<span style="color:red">*</span>
+                </label>
+              </div>
+              <div class="col-sm-6 col-md-6">
+                <input
+                  type="text"
+                  placeholder="Enter Product Name (eg. iPhone 8)"
+                  id="keyword"
+                  name="keyword"
+                  class="form-control"
+                  ng-model="Keyword"
+                  ng-required="true"
+                  required
+                />
+                <span
+                  class="text-danger"
+                  ng-show="productSearchForm.keyword.$invalid && productSearchForm.keyword.$touched"
+                  >Please enter a keyword.</span
+                >
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col-sm-3 offset-sm-1">
+                <label for="category" class="col-form-label">Category</label>
+              </div>
+              <div class="col-sm-3">
+                <select
+                  id="category"
+                  name="category"
+                  class="form-control custom-select"
+                  ng-model="Category"
+                  ng-init="Category='All Categories'"
+                >
+                  <option value="All Categories" ng-selected="true"
+                    >All Categories</option
+                  >
+                  <option value="Art">Art</option>
+                  <option value="Baby">Baby</option>
+                  <option value="Books">Books</option>
+                  <option value="Clothing, Shoes & Accessories"
+                    >Clothing Shoes & Accessories</option
+                  >
+                  <option value="Computers/Tablets & Networking"
+                    >Computers/Tablets & Networking</option
+                  >
+                  <option value="Health & Beauty">Health & Beauty</option>
+                  <option value="Music">Music</option>
+                  <option value="Video Games & Consoles"
+                    >Video Games & Consoles</option
+                  >
+                </select>
+              </div>
+            </div>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <div class="col-sm-3 col-md-3 offset-sm-1">
+                  <label for="condition" class="col-form-label"
+                    >Condition</label
+                  >
+                </div>
+                <div class="col-sm-3 col-md-3 form-check form-check-inline new">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="condition"
+                    id="new"
+                    ng-model="NewCondition"
+                  />
+                  <label for="new" class="form-check-label">New</label>
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="condition"
+                    id="used"
+                    ng-model="UsedCondition"
+                    style="margin-left:12px;"
+                  />
+                  <label for="used" class="form-check-label">Used</label
+                  ><input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="condition"
+                    id="unspecified"
+                    ng-model="UnspecifiedCondition"
+                    style="margin-left:12px;"
+                  />
+                  <label for="unspecified" class="form-check-label"
+                    >Unspecified</label
+                  >
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <div class="col-sm-3 col-md-3 offset-sm-1">
+                  <label for="shipping[]" class="col-form-label"
+                    >Shipping Options</label
+                  >
+                </div>
+                <div class="col-sm-4 col-md-4 form-check form-check-inline new">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="shipping[]"
+                    id="local"
+                    ng-model="LocalShipping"
+                  />
+                  <label for="local" class="form-check-label"
+                    >Local Pickup</label
+                  >
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="shipping[]"
+                    id="free"
+                    ng-model="FreeShipping"
+                    style="margin-left:12px;"
+                  />
+                  <label for="free" class="form-check-label"
+                    >Free Shipping</label
+                  >
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="form-group row">
+              <div class="col-sm-3 col-md-3 offset-sm-1">
+                <label for="distance" class="col-form-label"
+                  >Distance (Miles)</label
+                >
+              </div>
+
+              <div class="col-sm-3 col-md-3">
+                <input
+                  type="text"
+                  name="distance"
+                  id="distance"
+                  placeholder="10"
+                  class="form-control"
+                  ng-model="Distance"
+                />
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-sm-3 col-md-3 offset-md-1">
+                <label for="from" class="form-check-label"
+                  >From<span style="color:red;">*</span></label
+                >
+              </div>
+              <div class="col-sm-6 col-md-6">
+                <div class="custom-control custom-radio">
+                  <input
+                    type="radio"
+                    id="here"
+                    name="loc"
+                    value="here"
+                    ng-model="Location1"
+                    class="custom-control-input"
+                    ng-checked="1"
+                  />
+                  <label class="custom-control-label" for="here"
+                    >Current Location</label
+                  >
+                  <input
+                    type="hidden"
+                    name="zip"
+                    id="zip"
+                    ng-model="Zip"
+                    value=""
+                  />
+                </div>
+                <div class="custom-control custom-radio">
+                  <input
+                    type="radio"
+                    id="other"
+                    name="loc"
+                    value="other"
+                    ng-model="Location1"
+                    class="custom-control-input"
+                  />
+                  <label class="custom-control-label" for="other"
+                    >Other. Please specify zip code:</label
+                  >
+                </div>
+
+                <div class="col-sm-12 col-md-12">
+                  <md-autocomplete
+                    flex
+                    md-input-name="zipcode"
+                    style="margin-top:6px; margin-left: -12px"
+                    md-selected-item="selectedItem"
+                    md-selected-item-change="validateForm(searchText)"
+                    md-item-text="x.zipcode"
+                    md-item-display="x.display"
+                    md-search-text="searchText"
+                    md-search-text-change="validateForm(searchText)"
+                    md-items="x in query(searchText)"
+                    md-min-length="1"
+                    md-dropdown-position="bottom"
+                    md-clear-button="false"
+                    ng-disabled="Location1==='here'"
+                    ng-required="Location1==='other'"
+                  >
+                    <md-item-template>
+                      <span md-highlight-text="searchText">{{x}}</span>
+                    </md-item-template>
+                  </md-autocomplete>
+                  <span
+                    class="text-danger"
+                    ng-show="Location1==='other' && (productSearchForm.zipcode.$touched && productSearchForm.zipcode.$invalid)"
+                    >Please enter a valid zipcode.</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="row col-sm-12 col-md-12 offset-sm-1">
+                <button
+                  type="submit"
+                  class="btn btn-light btn-sm"
+                  id="submit-button"
+                  style="display: flex"
+                  value="Submit"
+                  ng-disabled="Keyword === undefined || Keyword=='' || (productSearchForm.keyword.$dirty && productSearchForm.keyword.$invalid) || (Location1 === 'undefined' || (Location1==='other' && productSearchForm.zipcode.$viewValue.length !== 5))"
+                >
+                  <i
+                    class="material-icons text-dark"
+                    style="vertical-align: middle"
+                    >search</i
+                  >
+                  Search
+                </button>
+
+                <button
+                  type="reset"
+                  class="btn btn-light btn-sm ml-4"
+                  style="display: flex"
+                  ng-click="reset()"
+                >
+                  <!-- Need a Reset function on click-->
+                  <i class="material-icons" style="vertical-align:middle"
+                    >clear_all</i
+                  >
+                  Clear
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results, Wish List buttons -->
+    <ul
+      class="nav nav-pills mb-3 mt-4"
+      id="pills-tab"
+      role="tablist"
+      style="text-align:center; justify-content:center;margin:10px;"
+    >
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          id="pills-results-tab"
+          data-toggle="pill"
+          href="#pills-results"
+          role="tab"
+          ng-click="getResults()"
+          >Results</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          id="pills-wishlist-tab"
+          data-toggle="pill"
+          href="#pills-wishlist"
+          role="tab"
+          ng-click="getWishList()"
+          >Wish List</a
+        >
+      </li>
+    </ul>
+
+    <!-- Product Search Results table -->
+
+    <div
+      class="container search-results"
+      id="resultsTable"
+      ng-hide="showProgressBar==false"
+    >
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-striped progress-bar-animated"
+          role="progressbar"
+          aria-valuenow="50"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          style="width: 50%"
+        ></div>
+      </div>
+    </div>
+
+    <div class="container" ng-show="resultsTableRecords===false" ng-cloak>
+      <div class="alert alert-warning">
+        No Records.
+      </div>
+    </div>
+
+    <div class="container" ng-show="showProductTable && resultsTable">
+      <div class="row justify-content-end mt-4">
+        <button
+          class="btn btn-light detail-button"
+          ng-disabled="!detailButtonEnabled"
+          ng-click="productDetailButtonSearch($scope.highlightedItemId, $scope.highlightedShipping, $scope.highlightedReturns)"
+        >
+          Detail<i class="material-icons" style="vertical-align: middle"
+            >keyboard_arrow_right</i
+          >
+        </button>
+      </div>
+
+      <table
+        class="table table-responsive-sm table-striped table-dark table-hover mt-3"
+        ng-if="resultsTable && !showProgressBar && showProductTable"
+        id="product-results-table"
+        ng-cloak
+      >
+        <!-- TODO: Handle N/A -->
+        <thead>
+          <tr>
+            <th scope="col" style="width: 5%; text-align: left">#</th>
+            <th scope="col" style="width: 24%; text-align: left">Image</th>
+            <th scope="col" style="width: 33%; text-align: left">Title</th>
+            <th scope="col" style="width: 5%; text-align: left">Price</th>
+            <th scope="col" style="width: 13%; text-align: left">Shipping</th>
+            <th scope="col" style="width: 5%; text-align: left">Zip</th>
+            <th scope="col" style="width: 10%; text-align: left">Seller</th>
+            <th
+              scope="col"
+              style="width: 5%; text-align: left; white-space:nowrap"
+            >
+              Wish List
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <!--dir-paginate="x in resultsTable | itemsPerPage:10"-->
+          <!--pagination-id="results-table"-->
+          <tr
+            ng-repeat="x in filteredResults"
+            ng-click="setSelectedRow(x, $index)"
+            ng-class="{selected: $index === selectedRow}"
+          >
+            <td><strong>{{$index + 1 + (currentPage - 1) * 10 }}</strong></td>
+            <td>
+              <a ng-href="{{x.galleryURL[0]}}" target="_blank">
+                <img
+                  ng-src="{{x.galleryURL[0]}}"
+                  style="height: auto; width: 100%"
+                  alt="N/A"
+                />
+              </a>
+            </td>
+            <td>
+              <strong
+                ><a
+                  ng-href="#tab-details"
+                  ng-click="productDetailsSearch(x.itemId, x.shippingInfo, x.returnsAccepted)"
+                  style="white-space: nowrap"
+                  >{{ x.title[0].length > 0 ? (x.title[0] | limit: true: ' ...':
+                  35) : "N/A"}}</a
+                >
+                <md-tooltip
+                  md-delay="100"
+                  md-autohide="true"
+                  md-direction="bottom"
+                >
+                  {{ x.title[0].length > 0 ? x.title[0] : "N/A" }}
+                </md-tooltip>
+              </strong>
+            </td>
+            <td>
+              <strong
+                >{{x.sellingStatus[0].currentPrice[0].__value__.length > 0 ?
+                (x.sellingStatus[0].currentPrice[0].__value__ | currency) :
+                "N/A"}}</strong
+              >
+            </td>
+            <td style="white-space:nowrap">
+              <strong
+                >{{x.shippingInfo[0].shippingServiceCost[0].__value__ == "0.0" ?
+                "Free Shipping" :
+                (x.shippingInfo[0].shippingServiceCost[0].__value__ | currency)
+                }}</strong
+              >
+            </td>
+            <td>
+              <strong
+                >{{x.postalCode[0].length > 0 ? x.postalCode[0] :
+                "N/A"}}</strong
+              >
+            </td>
+            <td>
+              <strong
+                >{{x.sellerInfo[0].sellerUserName[0].length > 0?
+                (x.sellerInfo[0].sellerUserName[0] | uppercase) : "N/A"
+                }}</strong
+              >
+            </td>
+            <td>
+              <button
+                class="btn btn-light"
+                id="cart-button"
+                ng-click="addToWishList(x)"
+              >
+                <i
+                  class="material-icons"
+                  id="{{ x.itemId[0] }}"
+                  style="vertical-align:middle"
+                >
+                  add_shopping_cart
+                </i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!--<div class="row">-->
+      <ul
+        uib-pagination
+        total-items="totalItems"
+        previous-text="&laquo;&nbsp;&nbsp;&nbsp;Previous"
+        next-text="Next&nbsp;&nbsp;&nbsp;&raquo;"
+        class="justify-content-center"
+        data-ng-show="resultsTable.length > itemsPerPage"
+        ng-model="currentPage"
+        items-per-page="itemsPerPage"
+        max-size="maxSize"
+      ></ul>
+      <!--</div>-->
+    </div>
+    <!--<center>-->
+    <!--<dir-pagination-controls max-size="10" boundary-links="true" direction-links="true" pagination-id="results-table"></dir-pagination-controls>-->
+    <!--</center>-->
+
+    <!-- WishList Table -->
+
+    <div
+      class="container"
+      ng-if="wishListEnabled===true && (wishListRecords==0 || wishListRecords==undefined)"
+    >
+      <div class="alert alert-warning">
+        No Records.
+      </div>
+    </div>
+    <!--</div>-->
+
+    <div
+      class="container mt-4"
+      ng-show="wishListEnabled === true && wishListRecords > 0"
+    >
+      <table class="table table-hover table-dark table-responsive">
+        <tr>
+          <th scope="col" style="width: 5%; text-align: left">#</th>
+          <th scope="col" style="width: 20%; text-align: left">Image</th>
+          <th scope="col" style="width: 35%; text-align: left">Title</th>
+          <th scope="col" style="width: 10%; text-align: left">Price</th>
+          <th scope="col" style="width: 15%; text-align: left">Shipping</th>
+          <th scope="col" style="width: 10%; text-align: left">Seller</th>
+          <th
+            scope="col"
+            style="width: 5%; text-align: left; white-space:nowrap"
+          >
+            Wish List
+          </th>
+        </tr>
+        <tr ng-repeat="x in wishListArray">
+          <td><strong>{{$index + 1 }}</strong></td>
+          <td>
+            <a ng-href="{{x.galleryURL[0]}}" target="_blank">
+              <img
+                ng-src="{{x.galleryURL[0]}}"
+                style="height: auto; width: 100%"
+              />
+            </a>
+          </td>
+          <td>
+            <strong
+              ><a
+                ng-href="#tab-details"
+                ng-click="productDetailsSearch(x.itemId, x.shippingInfo, x.returnsAccepted)"
+                style="white-space: nowrap"
+                >{{ x.title[0] | limit: true: ' ...': 35 }}</a
+              >
+              <md-tooltip
+                md-delay="100"
+                md-autohide="true"
+                md-direction="bottom"
+              >
+                {{ x.title[0] }}
+              </md-tooltip>
+            </strong>
+          </td>
+          <td>
+            <strong
+              >{{x.sellingStatus[0].currentPrice[0].__value__ | currency
+              }}</strong
+            >
+          </td>
+          <td style="white-space:nowrap">
+            <strong
+              >{{ x.shippingInfo[0].shippingServiceCost[0].__value__ == "0.0" ?
+              "Free Shipping" :
+              (x.shippingInfo[0].shippingServiceCost[0].__value__ | currency)
+              }}</strong
+            >
+          </td>
+          <td>
+            <strong>{{ x.sellerInfo[0].sellerUserName[0] | uppercase }}</strong>
+          </td>
+          <td>
+            <button class="btn btn-light" ng-click="removeFromWishList(x)">
+              <i
+                class="material-icons"
+                style="vertical-align:middle; color:gold"
+              >
+                remove_shopping_cart
+              </i>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><strong>Total Shopping</strong></td>
+          <td>{{ getTotalShopping() | currency }}</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Product Details page -->
+    <div class="container product-details-page" ng-if="showDetails">
+      <div class="mt-3 p-2">
+        <div style="text-align: center;margin:auto">
+          <h5>{{ productDetails.Title }}</h5>
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="row">
+          <div class="product-list-button col">
+            <button
+              class="btn border product-list-button text-dark"
+              id="product-list"
+              value="List"
+              style="font-size:15px;"
+              ng-click="productSearchFormSubmitAgain()"
+            >
+              <i class="material-icons" style="vertical-align: middle;"
+                >keyboard_arrow_left</i
+              >List
+            </button>
+          </div>
+          <div class="col-1" style="white-space: nowrap">
+            <a href="#" id="fbIcon">
+              <button class="btn" style="padding:0" ng-click="share()">
+                <img
+                  src="http://csci571.com/hw/hw8/Images/facebook.png"
+                  width="34px"
+                  height="34px"
+                />
+              </button>
+            </a>
+            <button
+              class="btn btn-light"
+            >
+              <i
+                class="material-icons"
+                style="vertical-align:middle; padding:0"
+              >
+                add_shopping_cart
+              </i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!--<div class="nav-tabs">-->
+      <ul class="nav nav-tabs justify-content-end nav-pills" role="tablist">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="details-tab"
+            data-toggle="tab"
+            ng-href="#tab-details"
+            role="tab"
+            aria-controls="info"
+            aria-selected="true"
+            >Product</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="photos-tab"
+            data-toggle="tab"
+            ng-href="#tab-photos"
+            role="tab"
+            aria-controls="info"
+            aria-selected="true"
+            ng-click="productPhotos(productDetails.Title)"
+            >Photos</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="shipping-tab"
+            data-toggle="tab"
+            href="#tab-shipping"
+            role="tab"
+            aria-controls="info"
+            aria-selected="true"
+            >Shipping</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="seller-tab"
+            data-toggle="tab"
+            href="#tab-seller"
+            role="tab"
+            aria-controls="info"
+            aria-selected="true"
+            ng-click="feedback_rating(productDetails.Seller.FeedbackRatingStar)"
+          >
+            <!--TODO ngclick-->Seller</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="similar-tab"
+            data-toggle="tab"
+            href="#tab-similar"
+            role="tab"
+            aria-controls="info"
+            aria-selected="true"
+            ng-click="similarProducts(ItemId)"
+            >Similar Products
+          </a>
+        </li>
+      </ul>
+      <!--</div>-->
+      <div
+        class="tab-content"
+        ng-hide="productDetails === undefined"
+        id="product-details"
+      >
+        <div class="tab-pane fade show active" id="tab-details" role="tabpanel">
+          <table
+            class="table table-responsive-sm table-striped table-dark mt-3"
+          >
+            <tbody class="product-details-table" id="product-details-table">
+              <tr ng-show="productDetails.PictureURL">
+                <th>Product Images</th>
+                <td>
+                  <a
+                    class="text-info"
+                    ng-href="#photosModal"
+                    data-toggle="modal"
+                    data-target="#photosModal"
+                    >View Product Images Here</a
+                  >
+                </td>
+              </tr>
+
+              <!-- Modal for Photos -->
+              <div
+                class="modal fade"
+                id="photosModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="photosModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="photosModalLabel">
+                        Product Images
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div
+                        id="carouselExampleControls"
+                        class="carousel slide"
+                        data-ride="carousel"
+                        data-interval="false"
+                        ng-show="productDetails.PictureURL"
+                      >
+                        <div class="carousel-inner">
+                          <div
+                            class="carousel-item {{::($index === 0 ? 'active': '')}}"
+                            ng-repeat="x in productDetails.PictureURL track by $index"
+                          >
+                            <a ng-href="{{ x }}" target="_blank">
+                              <img
+                                class="d-block w-100 mw-100 rounded p-1"
+                                style="border: 10px solid black; margin: auto"
+                                ng-src="{{ x }}"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a
+                        class="carousel-control-prev"
+                        href="#carouselExampleControls"
+                        role="button"
+                        data-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon bg-dark"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a
+                        class="carousel-control-next"
+                        href="#carouselExampleControls"
+                        role="button"
+                        data-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon bg-dark"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Hide Carousel left and right buttons when there is only one image -->
+              <script>
+                $(".carousel-inner").each(function() {
+                  if ($(this).children("div").length === 1)
+                    $(this)
+                      .siblings(
+                        ".carousel-control-prev, .carousel-control-next"
+                      )
+                      .hide();
+                });
+              </script>
+
+              <tr ng-hide="productDetails.Subtitle === undefined">
+                <th>SubTitle</th>
+                <td>{{productDetails.Subtitle}}</td>
+              </tr>
+              <tr ng-hide="productDetails.CurrentPrice.Value === undefined">
+                <th>Price</th>
+                <td>{{productDetails.CurrentPrice.Value | currency}}</td>
+              </tr>
+              <tr ng-hide="productDetails.Location === undefined">
+                <th>Location</th>
+                <td>{{productDetails.Location}}</td>
+              </tr>
+              <tr ng-hide="productDetails.ReturnPolicy === undefined">
+                <th>Return Policy (US)</th>
+                <td>
+                  {{productDetails.ReturnPolicy.ReturnsAccepted}}{{productDetails.ReturnPolicy.ReturnsWithin
+                  !== undefined ? ' within ' +
+                  productDetails.ReturnPolicy.ReturnsWithin : ''}}
+                </td>
+              </tr>
+              <!-- Item Specifics -->
+              <tr ng-repeat="x in productDetails.ItemSpecifics.NameValueList">
+                <th>{{x.Name}}</th>
+                <td>{{x.Value[0]}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="tab-pane fade" id="tab-photos" role="tabpanel">
+          <div class="row">
+            <div class="col-md-4 p-2">
+              <a ng-href="{{photosOfItem[0].link}}" target="_blank"
+                ><img
+                  ng-src="{{photosOfItem[0].link}}"
+                  class="d-block w-100 border-black mb-2"
+                  ng-cloak
+                  alt="Google Custom Search Image"
+                />
+              </a>
+              <a ng-href="{{photosOfItem[3].link}}" target="_blank"
+                ><img
+                  ng-src="{{photosOfItem[3].link}}"
+                  class="d-block w-100 border-black mb-2"
+                  ng-cloak
+                  alt="Google Custom Search Image"
+                />
+              </a>
+            </div>
+            <div class="col-md-4 p-2">
+              <a ng-href="{{ photosOfItem[1].link }}" target="_blank"
+                ><img
+                  ng-src="{{photosOfItem[1].link}}"
+                  class="d-block w-100 border-black mb-2"
+                  ng-cloak
+                  alt="Google Custom Search Image"
+              /></a>
+              <a ng-href="{{ photosOfItem[4].link }}" target="_blank"
+                ><img
+                  ng-src="{{photosOfItem[4].link}}"
+                  class="d-block w-100 border-black mb-2"
+                  ng-cloak
+                  alt="Google Custom Search Image"
+              /></a>
+              <a ng-href="{{ photosOfItem[6].link }}" target="_blank"
+                ><img
+                  ng-src="{{photosOfItem[6].link}}"
+                  class="d-block w-100 border-black mb-2"
+                  ng-cloak
+                  alt="Google Custom Search Image"
+              /></a>
+            </div>
+            <div class="col-md-4 p-2">
+              <a ng-href="{{ photosOfItem[2].link }}" target="_blank"
+                ><img
+                  ng-src="{{photosOfItem[2].link}}"
+                  class="d-block w-100 border-black mb-2"
+                  ng-cloak
+                  alt="Google Custom Search Image"
+              /></a>
+              <a ng-href="{{ photosOfItem[5].link }}" target="_blank"
+                ><img
+                  ng-src="{{photosOfItem[5].link}}"
+                  class="d-block w-100 border-black mb-2"
+                  ng-cloak
+                  alt="Google Custom Search Image"
+              /></a>
+              <a ng-href="{{ photosOfItem[7].link }}" target="_blank"
+                ><img
+                  ng-src="{{photosOfItem[7].link}}"
+                  class="d-block w-100 border-black mb-2"
+                  ng-cloak
+                  alt="Google Custom Search Image"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tab-shipping" role="tabpanel">
+          <table
+            class="table table-responsive-sm table-striped table-dark mt-3"
+          >
+            <tbody class="shipping-info" id="shipping-info">
+              <tr
+                ng-if="productShippingInfo[0].shippingServiceCost !== undefined"
+              >
+                <th>Shipping Cost</th>
+                <td>
+                  {{ productShippingInfo[0].shippingServiceCost[0].__value__ ==
+                  "0.0" ? "Free Shipping" :
+                  (productShippingInfo[0].shippingServiceCost[0].__value__ |
+                  currency) }}
+                </td>
+              </tr>
+              <tr ng-if="productShippingInfo[0].shipToLocations !== undefined">
+                <th>Shipping Locations</th>
+                <td>{{ productShippingInfo[0].shipToLocations[0] }}</td>
+              </tr>
+              <tr ng-if="productShippingInfo[0].handlingTime !== undefined">
+                <th>Handling time</th>
+                <td>
+                  {{ productShippingInfo[0].handlingTime[0] }} {{
+                  productShippingInfo[0].handlingTime[0] <= 1 ? "Day": "Days" }}
+                </td>
+              </tr>
+              <tr
+                ng-if="productShippingInfo[0].expeditedShipping !== undefined"
+              >
+                <th>Expedited Shipping</th>
+                <td ng-if="productShippingInfo[0].expeditedShipping[0]=='true'">
+                  <i class="material-icons text-success">
+                    done
+                  </i>
+                </td>
+                <td
+                  ng-if="productShippingInfo[0].expeditedShipping[0]=='false'"
+                >
+                  <i class="material-icons text-danger">
+                    clear
+                  </i>
+                </td>
+              </tr>
+              <tr
+                ng-if="productShippingInfo[0].oneDayShippingAvailable !== undefined"
+              >
+                <th>One Day Shipping</th>
+                <td
+                  ng-if="productShippingInfo[0].oneDayShippingAvailable[0]=='true'"
+                >
+                  <i class="material-icons text-success">
+                    done
+                  </i>
+                </td>
+                <td
+                  ng-if="productShippingInfo[0].oneDayShippingAvailable[0]=='false'"
+                >
+                  <i class="material-icons text-danger">
+                    clear
+                  </i>
+                </td>
+              </tr>
+              <tr ng-if="productReturns !== undefined">
+                <th>Return Accepted</th>
+                <td ng-if="productReturns[0]=='true'">
+                  <i class="material-icons text-success">
+                    done
+                  </i>
+                </td>
+                <td ng-if="productReturns[0] =='false'">
+                  <i class="material-icons text-danger">
+                    clear
+                  </i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="tab-pane fade" id="tab-seller" role="tabpanel">
+          <table
+            class="table table-responsive-sm table-striped table-dark mt-3"
+            ng-cloak
+          >
+            <tr ng-if="productDetails.Seller.UserID !== undefined">
+              <caption
+                class="table-dark table-striped text-center"
+                style="caption-side:top"
+              >
+                {{ productDetails.Seller.UserID | uppercase }}
+              </caption>
+            </tr>
+            <tr ng-if="productDetails.Seller.FeedbackScore !== undefined">
+              <td>Feedback Score</td>
+              <td>{{ productDetails.Seller.FeedbackScore }}</td>
+            </tr>
+            <tr
+              ng-if="productDetails.Seller.PositiveFeedbackPercent !== undefined"
+            >
+              <td>Popularity</td>
+              <td>
+                <div class="progress-wrapper">
+                  <div
+                    round-progress
+                    max="100"
+                    current="productDetails.Seller.PositiveFeedbackPercent"
+                    radius="20"
+                    color="green"
+                    stroke="3"
+                    semi="false"
+                    rounded="false"
+                    clockwise="true"
+                    responsive="false"
+                    duration="800"
+                    animation="easeInOutQuart"
+                    animation-delay="0"
+                    offset="0"
+                  ></div>
+                  <div class="progress-text">
+                    {{ productDetails.Seller.PositiveFeedbackPercent }}
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr
+              ng-if="(productDetails.Seller.FeedbackRatingStar !== undefined && productDetails.Seller.FeedbackRatingStar != 'None') && useStarBorder"
+            >
+              <td>Feedback Rating Star</td>
+              <td>
+                <i
+                  class="material-icons"
+                  ng-style="{'color': productDetails.Seller.FeedbackRatingStar, 'font-size': '28px'}"
+                  >star_border</i
+                >
+              </td>
+            </tr>
+            <tr
+              ng-if="productDetails.Seller.FeedbackRatingStar !== undefined && useStarBorder===false"
+            >
+              <td>Feedback Rating Star</td>
+              <td>
+                <i
+                  class="material-icons md-36"
+                  ng-style="{'color': productDetails.Seller.FeedbackRatingStar, 'font-size': '28px'}"
+                  >stars</i
+                >
+              </td>
+            </tr>
+            <tr ng-if="productDetails.Seller.TopRatedSeller !== undefined">
+              <td>Top Rated</td>
+              <td ng-if="productDetails.Seller.TopRatedSeller === true">
+                <i class="material-icons text-success">
+                  done
+                </i>
+              </td>
+              <td ng-if="productDetails.Seller.TopRatedSeller === false">
+                <i class="material-icons text-danger">
+                  clear
+                </i>
+              </td>
+            </tr>
+            <tr ng-if="productDetails.Storefront.StoreName !== undefined">
+              <td>Store Name</td>
+              <td>{{ productDetails.Storefront.StoreName }}</td>
+            </tr>
+            <tr ng-if="productDetails.Storefront.StoreURL !== undefined">
+              <th>Buy Product At</th>
+              <td>
+                <a
+                  ng-href="{{ productDetails.Storefront.StoreURL }}"
+                  class="text-info"
+                  target="_blank"
+                  >Store</a
+                >
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="tab-pane fade" id="tab-similar" role="tabpanel">
+          <div class="row mt-4 mb-3">
+            <div class="col-md-2">
+              <select
+                class="custom-select"
+                id="sort-by-type"
+                name="sortByField"
+                ng-model="sortByField"
+                ng-init="sortByField=Default"
+              >
+                <!-- ng-model="sort" -->
+                <option value="" ng-selected="true">Default</option>
+                <option value="title">Product Name</option>
+                <option value="timeLeft">Days Left</option>
+                <option value="buyItNowPrice.__value__">Price</option>
+                <option value="shippingCost.__value__">Shipping Cost</option>
+              </select>
+            </div>
+
+            <div class="col-md-2">
+              <select
+                class="custom-select"
+                id="sort-by-value"
+                name="soryByValue"
+                ng-model="sortByValue"
+                ng-init="sortByValue=Ascending"
+                ng-disabled="sortByField==Default"
+              >
+                <option value="" selected>Ascending</option>
+                <option>Descending</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="card" ng-if="similarItems !== undefined" ng-cloak>
+            <div
+              class="card-body"
+              ng-repeat="x in similarItems | orderBy: sortByField: sortByValue==='Descending' | limitTo: maxItems"
+              style="border-collapse: collapse; margin-bottom: 15px; background-color: black;"
+            >
+              <div class="row">
+                <div class="col-md-2">
+                  <a ng-href="{{ x.imageURL }}" target="_blank">
+                    <img
+                      ng-src="{{ x.imageURL }}"
+                      alt="Similar Item Photo"
+                    /><!-- style="height:auto; width: 100%;" -->
+                  </a>
+                </div>
+                <div class="col-md-10">
+                  <a
+                    ng-href="{{ x.viewItemURL }}"
+                    class="text-info"
+                    target="_blank"
+                    >{{ x.title }}</a
+                  >
+                  <div class="text-success">
+                    Price: {{ x.buyItNowPrice.__value__ | currency }}
+                  </div>
+                  <div class="text-warning">
+                    Shipping: {{ x.shippingCost.__value__ | currency }}
+                  </div>
+                  <div class="text-light">
+                    Days Left: {{ x.timeLeft | between : 'P' : 'D' }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            ng-if="similarItems.length> 5 && similarItems.length !== maxItems"
+            class="justify-content-center mx-auto text-center"
+          >
+            <button
+              class="btn btn-dark mx-auto text-center"
+              ng-click="showMoreItems()"
+            >
+              Show More
+            </button>
+          </div>
+          <div
+            ng-if="similarItems.length === maxItems"
+            class="justify-content-center mx-auto text-center"
+          >
+            <button
+              class="btn btn-dark mx-auto text-center"
+              ng-click="showLessItems()"
+            >
+              Show Less
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
