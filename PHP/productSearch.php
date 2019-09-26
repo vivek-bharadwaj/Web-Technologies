@@ -10,7 +10,7 @@ $distance = "10";
 $zipcode = "";
 $nearby = "";
 
-$findingApiUrl = "http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findItemsAdvanced&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=VivekBha-ProductS-PRD-c16e2f149-3c57da65&RESPONSE-DATA-FORMAT=JSON&RESTPAYLOAD&paginationInput.entriesPerPage=20";
+$findingApiUrl = "http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findItemsAdvanced&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=<APP_NAME>&RESPONSE-DATA-FORMAT=JSON&RESTPAYLOAD&paginationInput.entriesPerPage=20";
 
 $categories = array("Art" => "550", "Baby" => "2984", "Books" => "267", "Clothing, Shoes & Accessories" => "11450", "Computers/Tablets & Networking" => "58058", "Health & Beauty" => "26395", "Music" => "11233", "Video Games & Consoles" => "1249");
 
@@ -159,9 +159,9 @@ if (isset($_GET['ItemId'])) {
     $itemId = $_GET['ItemId'];
 }
 
-$productDetailsURL = "http://open.api.ebay.com/shopping?callname=GetSingleItem&responseencoding=JSON&appid=VivekBha-ProductS-PRD-c16e2f149-3c57da65&siteid=0&version=967&ItemID=" . $itemId . "&IncludeSelector=Description,Details,ItemSpecifics";
+$productDetailsURL = "http://open.api.ebay.com/shopping?callname=GetSingleItem&responseencoding=JSON&appid=<APP_ID>&siteid=0&version=967&ItemID=" . $itemId . "&IncludeSelector=Description,Details,ItemSpecifics";
 
-$similarItemsURL = "http://svcs.ebay.com/MerchandisingService?OPERATION-NAME=getSimilarItems&SERVICE-NAME=MerchandisingService&SERVICEVERSION=1.1.0&CONSUMER-ID=VivekBha-ProductS-PRD-c16e2f149-3c57da65&RESPONSE-DATA-FORMAT=JSON&REST-PAYLOAD&itemId=" . $itemId . "&maxResults=8";
+$similarItemsURL = "http://svcs.ebay.com/MerchandisingService?OPERATION-NAME=getSimilarItems&SERVICE-NAME=MerchandisingService&SERVICEVERSION=1.1.0&CONSUMER-ID=<APP_ID>&RESPONSE-DATA-FORMAT=JSON&REST-PAYLOAD&itemId=" . $itemId . "&maxResults=8";
 
 ?>
 
