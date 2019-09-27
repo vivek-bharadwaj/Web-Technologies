@@ -1,164 +1,186 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Homework 4</title>
-    <style type="text/css">
-        .formDiv {
-            text-align: center;
-            margin-top: 150px;
-        }
-
-        .header {
-            font-weight: bold;
-            font-size: 20px;
-            padding-bottom: 5px;
-        }
-
-        .textbox {
-            width: 165px;
-        }
-
-        .submit {
-            width: 100px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Manufacturers' List</title>
 </head>
-
+<style>
+    .search-tool {
+        text-align: center;
+        margin-top: 200px;
+        margin-bottom: 10px;
+    }
+    .search-comp {
+        margin-bottom: 10px;
+    }
+    .submit-button {
+        border-radius: 4px;
+        border-style: solid;
+        border-color: silver;
+        background-color: whitesmoke;
+    }
+    .text-box {
+        border-color: lightgray;
+        border-style: solid;
+    }
+    .text-box:focus {
+        outline: none !important;
+        border:2px solid lightblue;
+    }
+</style>
 <body>
-
-    <div class="formDiv">
-        <h1 class="header">Enter URL for Highest-grossing films List JSON File</h1>
-        <form name="myform" method="POST">
-            <input type="text" class="textbox" name="URL" maxlength="255" size="100">
-            <br><br>
-            <input type="button" class="submit" name="submit" value="Submit Query" onclick="mainFunc(this.form)">
+    <div class="search-tool">
+        <h2 class="search-comp"><b>Enter URL for largest manufacturers by production (2017) List JSON File</b></h2>
+        <form class="form-comp" method="post">
+            <input class="search-comp text-box" type="text" name="filename"><br>
+            <input class="search-comp submit-button" type="button" name="submit" value="Submit Query"
+                onclick="fetchResults(this.form)">
         </form>
-    </div>
 
-    <script type="text/javascript">
+        <br>
 
-        let html_text = "";
+        <script>
+            var page_content = "";
 
-        function mainFunc(form) {
-            const jsonFile = form.URL.value;    // string - file name
+            function fetchResults(form) {
+                page_content = "";
+                var json_file_name = form.filename.value;
+                var json_doc, json_obj;
 
-            if (!jsonFile || jsonFile.trim().length === 0) {     // null or undefined check for filename
-                window.alert("The JSON URL is empty. Please enter a file name");
-                // window.location.reload();
-            }
-            else {
-                let jsonObj = loadJSON(jsonFile);   // Get JSON object
-                if (typeof jsonObj === 'object') {
-                    jsonObj.onload = generateHTML(jsonObj);     // Generate Table
-                    let success = jsonObj.onload;
-                    console.log(success);
-                    if (success) {
-                        let newWindow = window.open("", "name=_blank", "height=800,width=1050,scrollbars,resizable,status,location");  // var window = window.open(url, windowName, [windowFeatures]);
-                        newWindow.document.write(html_text);
-                        newWindow.document.close();
-                    }
-                }
-            }
-        }
-
-        function loadJSON(jsonFile) {
-
-            try {
-                const xhr = new XMLHttpRequest();
-                xhr.open("GET", jsonFile, false);
-                xhr.send();
-
-
-                if (xhr.readyState === 4 && xhr.status === 200) {
-                    let jsonObj = JSON.parse(xhr.responseText);
-                    return jsonObj;
-                }
-
-                else if (xhr.status === 404) {
-                    console.warn("404 file not found error");
-                    window.alert("The entered JSON file does not exist. Please enter a valid filename!");
-                }
-            }
-
-            catch (exception) {
-                // Invalid File name
-                console.warn(exception);
-                console.warn("404 file not found error");
-                window.alert("The entered JSON file does not exist. Please enter a valid filename!");
-            }
-
-
-        }
-
-        function generateHTML(jsonObj) {
-            try {
-                if (jsonObj.Mainline.Table.Row === undefined) {
-                    throw "NoRowException";
-                }
-                else if (jsonObj.Mainline.Table.Row.length === 0) {
-                    throw "NoRowException";
-                }
-                else {
-                    html_text = "<html><head><title>Highest-grossing films</title></head><body>";
-                    html_text += "<table border = '2' width=100%><tr>";
-
-                    let headerData = jsonObj.Mainline.Table.Header.Data;
-                    for (let i = 0; i < headerData.length; i++) {
-                        html_text += "<th>" + headerData[i] + "</th>";
-                    }
-                    html_text += "</tr>";
-
-                    let rowData = jsonObj.Mainline.Table.Row;   // rowData = Row Array
-                    for (let i = 0; i < rowData.length; i++) {
-                        html_text += "<tr>";
-                        let currentRowObject = rowData[i];  // Each Row Object
-                        let currentRowKeys = Object.keys(currentRowObject); //  Array of keys in each Row - [Title, Year, Hubs, Gross, Homepage, Logo]
-
-                        for (let j = 0; j < currentRowKeys.length; j++) {
-                            let key = currentRowKeys[j];
-                            if (key === "Hubs") {
-                                let currentHubObject = currentRowObject.Hubs;
-                                if (currentHubObject.Hub.length > 0) {
-                                    html_text += "<td style='min-width:227px'><ul>"
-                                    for (let k = 0; k < currentHubObject.Hub.length; k++) {
-                                        if (k == 0) {   // First li should be bold
-                                            html_text += "<li><b>" + currentHubObject.Hub[0] + "</b></li>"
-                                        }
-                                        else
-                                            html_text += "<li>" + currentHubObject.Hub[k] + "</li>"
-                                    }
-                                }
-                                else
-                                    html_text += "<td style='min-width:227px'> </td>";
-                                html_text += "</ul></li>";
-                            }
-                            else if (key === "HomePage") {
-                                html_text += "<td nowrap><a href='" + currentRowObject[key] + "'>" + currentRowObject[key] + "</td>";
-                            }
-                            else if (key === "Logo") {
-                                html_text += "<td><img src='" + currentRowObject[key] + "' width=140 height=180></td>";
-                            }
-                            else {
-                                html_text += "<td>" + currentRowObject[key] + "</td>";
-                            }
-                        }
-                        html_text += "</tr>";
-                    }
-
-                    html_text += "</table></body></html>";
-                    return true;
-                }
-            }
-            catch (e) {
-                if (e == "NoRowException") {
-                    window.alert("JSON file does not contain any films!");
+                if (json_file_name.trim().length === 0) {
+                    alert("Please enter the file name to be queried");
                     return;
                 }
+                console.log(json_file_name);
+
+                try {
+                    var xmlhttp = new XMLHttpRequest();
+                    url = json_file_name;
+                    xmlhttp.open("GET", url, false);
+                    xmlhttp.send();
+                    if(xmlhttp.status === 200) {
+                        if (xmlhttp.readyState === 4) {
+                            json_doc = xmlhttp.responseText;
+                            try {
+                                json_obj = JSON.parse(json_doc);
+                            } catch (exception) {
+                                alert("Invalid input JSON file");
+                            }
+                        }
+                    } else if (xmlhttp.status == 404) {
+                        alert("The filename "+ json_file_name+ " could not be found.");
+                        return;
+                    }
+                }   catch (exception) {
+                    window.alert("The entered JSON file does not exist. Please enter a valid filename!");
+                    return;
+                }
+                //add content to new pop-up window
+                console.log("Found json file!!");
+                if ( typeof json_obj === 'object' ) {
+                    json_obj.onload = createHtmlTable(json_obj);
+                    if (json_obj.onload) {
+                        var new_window = window.open('','winname','directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width=1380,height=800');
+                        new_window.document.open("text/html");
+                        new_window.document.write(page_content);
+                        new_window.document.close();
+                    }
+
+                }
+
             }
 
-        }
-    </script>
+            function createHtmlTable(json_obj) {
+                //Add content to that tab
+                page_content += "<!DOCTYPE html>\n" +
+                    "<html lang=\"en\">\n" +
+                    "<head>\n" +
+                    "    <meta charset=\"UTF-8\">\n" +
+                    "    <title>Largest Manufacturers By Production (2017)</title>\n";
+                table_style = "table {\n" +
+                    "  width: 100%\n" +
+                    "}\n" +
+                    "th {" +
+                    "} " +
+                    " td {" +
+                    "}" +
+                    "   .urls {  " +
+                    "} " +
+                    "   #logo-icon { " +
+                    "       height:220px; " +
+                    "       padding: 0px;" +
+                    "       width: 225px;" +
+                    "       margin: 0px;" +
+                     "} "
+                ;
+                page_content += "<style>" + table_style + "</style>";
+                page_content += "</head>";
+                page_content += "<table border='2' width='100%'>";
+                //create table header
+                 var headers = json_obj.Mainline.Table.Header.Data;
+                 page_content += "<tr>\n";
+                 for ( h of headers) {
+                     page_content += "<th>"+ h +"</th>"
+                 }
+                 page_content += "</tr>";
+
+                    // add the data into table rows
+                if (json_obj.Mainline.Table.Row === undefined || json_obj.Mainline.Table.Row == null) {
+                    alert("No car manufacturer data found!");
+                    return false;
+                }
+                var Rows = json_obj.Mainline.Table.Row;
+                if (Rows.length == 0) {
+                    alert("No car manufacturer data found!");
+                    return false;
+                }
+                    for (var row of Rows) {
+
+                        var row_data = "";
+                        if (row["Rank"] == null || row["Rank"] == undefined)
+                            row["Rank"] = "";
+                        row_data += "<td>" + row["Rank"] + "</td>";
+
+                        if ( row["Group"] == null || row["Group"] == undefined)
+                            row.Group = "";
+                        row_data += "<td min-width='100px'>" + row.Group + "</td>";
+
+                        var line = "<ul>";
+                        if ( row["Hubs"] == null || row["Hubs"] == undefined) {
+                        } else if (row["Hubs"]["Hub"] == null || row["Hubs"]["Hub"] == undefined) {
+                            //do nothing
+                        } else if (row["Hubs"]["Hub"].length == 0) {
+                            // do nothing
+                        }
+                        else {
+                            line += "<li><b>"+ row['Hubs']['Hub'][0] + "</b></li>";
+                            for (let i = 1; i < row['Hubs']['Hub'].length; i++) {
+                                line += "<li>" + row['Hubs']['Hub'] + "</li>";
+                            }
+                        }
+                        line += "</ul>";
+                        row_data += "<td style='min-width: 700px;'>" + line + "</td>";
+                        if (row['Vehicles'] == null || row['Vehicles'] == undefined)
+                            row['Vehicles'] = "";
+                        row_data += "<td>" + row.Vehicles + "</td>";
+                        if (row['HomePage'] == null || row['HomePage'] == undefined )
+                            row['HomePage'] = "";
+                        row_data += "<td><a class='urls' href='" + row['HomePage'] + "'>"+ row['HomePage']+"</a></td>";
+                        //logo
+                        if (row['Logo'] == null || row['Logo'] == undefined) {
+                            row['Logo'] = "";
+                        }
+                        row_data += "<td width='225px' height='225px'>" +
+                            "<img width='225px' height='225px' id='logo-icon' src='" + row.Logo + "'></td>";
+
+                        page_content += "<tr>" + row_data + "</tr>";
+                    }
+
+                page_content += "</table>";
+                return true;
+            }
+        </script>
+    </div>
+
 </body>
 </html>
